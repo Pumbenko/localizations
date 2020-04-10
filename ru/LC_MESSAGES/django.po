@@ -39,11 +39,11 @@ msgstr "Адрес регистрации"
 
 #: .\employees\forms.py:52
 msgid "Birth Date"
-msgstr ""
+msgstr "Дата рождения"
 
 #: .\employees\forms.py:55
 msgid "Gender"
-msgstr ""
+msgstr "Пол"
 
 #: .\employees\forms.py:59
 msgid "Country Of Origin"

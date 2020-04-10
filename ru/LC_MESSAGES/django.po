@@ -491,7 +491,6 @@ msgid "Keywords"
 msgstr "Ключевые слова"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:15
-#, fuzzy
 #| msgid "Keyword (Work From Home, Ingener, etc)"
 msgid "Keyword (Work From Home, Engineer, etc)"
 msgstr "Ключевые слова (Работа из дома, инженер, и т.д. )"

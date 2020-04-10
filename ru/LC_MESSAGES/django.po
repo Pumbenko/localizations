@@ -30,13 +30,12 @@ msgstr "Фамилия"
 
 #: .\employees\forms.py:45
 msgid "Living Address"
-msgstr "Адрес"
+msgstr "Адрес проживания"
 
 #: .\employees\forms.py:48
-#, fuzzy
-#| msgid "Living Address"
+
 msgid "Registration Address"
-msgstr "Адрес"
+msgstr "Адрес регистрации"
 
 #: .\employees\forms.py:52
 msgid "Birth Date"

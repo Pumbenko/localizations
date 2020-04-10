@@ -29,7 +29,6 @@ msgid "Last Name"
 msgstr "Nazwisko"
 
 #: .\employees\forms.py:45
-#, fuzzy
 #| msgid "Address"
 msgid "Living Address"
 msgstr "Adresa"
@@ -51,7 +50,7 @@ msgid "Country Of Origin"
 msgstr ""
 
 #: .\employees\forms.py:62 .\templates\employees\employees.html:24
-#, fuzzy
+
 #| msgid "Avaibalility"
 msgid "Availability"
 msgstr "Dostępność"

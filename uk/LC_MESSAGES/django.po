@@ -23,15 +23,15 @@ msgstr ""
 
 #: .\employees\forms.py:39 .\templates\accounts\register.html:21
 msgid "First Name"
-msgstr ""
+msgstr "Ім'я"
 
 #: .\employees\forms.py:42 .\templates\accounts\register.html:27
 msgid "Last Name"
-msgstr ""
+msgstr "Прізвище"
 
 #: .\employees\forms.py:45
 msgid "Living Address"
-msgstr ""
+msgstr "Адреса проживання"
 
 #: .\employees\forms.py:48
 msgid "Registration Address"

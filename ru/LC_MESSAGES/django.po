@@ -47,7 +47,7 @@ msgstr "Пол"
 
 #: .\employees\forms.py:59
 msgid "Country Of Origin"
-msgstr ""
+msgstr "Страна происхождения"
 
 #: .\employees\forms.py:62 .\templates\employees\employees.html:24
 #, fuzzy

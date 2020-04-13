@@ -35,105 +35,105 @@ msgstr "Адреса проживання"
 
 #: .\employees\forms.py:48
 msgid "Registration Address"
-msgstr ""
+msgstr "Адреса проживання"
 
 #: .\employees\forms.py:52
 msgid "Birth Date"
-msgstr ""
+msgstr "Дата народження"
 
 #: .\employees\forms.py:55
 msgid "Gender"
-msgstr ""
+msgstr "Стать"
 
 #: .\employees\forms.py:59
 msgid "Country Of Origin"
-msgstr ""
+msgstr "Країна походження"
 
 #: .\employees\forms.py:62 .\templates\employees\employees.html:24
 msgid "Availability"
-msgstr ""
+msgstr "Доступність"
 
 #: .\employees\forms.py:78
 msgid "Document Type"
-msgstr ""
+msgstr "Тип документу"
 
 #: .\employees\forms.py:82
 msgid "Document Series"
-msgstr ""
+msgstr "Серія документу"
 
 #: .\employees\forms.py:85
 msgid "Document Number"
-msgstr ""
+msgstr "Номер документу"
 
 #: .\employees\forms.py:88
 msgid "Date Of Issue"
-msgstr ""
+msgstr "Дата випуску"
 
 #: .\employees\forms.py:91
 msgid "Expiration Date"
-msgstr ""
+msgstr "Дата закінчення строку дії"
 
 #: .\employees\forms.py:94
 msgid "Authority Issued"
-msgstr ""
+msgstr "Орган видачі"
 
 #: .\employees\forms.py:97
 msgid "Note"
-msgstr ""
+msgstr "Нотатка"
 
 #: .\employees\forms.py:106
 #: .\templates\partials\documents\_documents_photo_collapse.html:18
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #: .\employees\forms.py:122
 msgid "Education Start"
-msgstr ""
+msgstr "Початок освіти"
 
 #: .\employees\forms.py:125
 msgid "Education End"
-msgstr ""
+msgstr "Кінець освіти"
 
 #: .\employees\forms.py:128
 msgid "Institution"
-msgstr ""
+msgstr "Інституція"
 
 #: .\employees\forms.py:131 .\templates\employees\employees.html:23
 msgid "Speciality"
-msgstr ""
+msgstr "Спеціальність"
 
 #: .\employees\forms.py:135
 msgid "Education Level"
-msgstr ""
+msgstr "Рівень освіти"
 
 #: .\employees\forms.py:153
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #: .\employees\forms.py:156 .\employers\forms.py:76
 #: .\templates\partials\employers\job_listings\_search_bar.html:21
 msgid "Job Title"
-msgstr ""
+msgstr "Назва вакансії"
 
 #: .\employees\forms.py:159
 msgid "Start Working"
-msgstr ""
+msgstr "Початок роботи"
 
 #: .\employees\forms.py:162
 msgid "Finish Working"
-msgstr ""
+msgstr "Кінець роботи"
 
 #: .\employees\forms.py:165
 msgid "Duties"
-msgstr ""
+msgstr "Обов'язки"
 
 #: .\employees\forms.py:168
 msgid "Business Area"
-msgstr ""
+msgstr "Сфера діяльності"
 
 #: .\employers\forms.py:23
 msgid "Name"
-msgstr ""
+msgstr "Ім'я"
 
 #: .\employers\forms.py:29
 msgid "Company Url"
@@ -141,11 +141,11 @@ msgstr ""
 
 #: .\employers\forms.py:34 .\templates\accounts\register.html:43
 msgid "Email"
-msgstr ""
+msgstr "Імейл"
 
 #: .\employers\forms.py:39 .\templates\partials\_navbar.html:15
 msgid "Employees"
-msgstr ""
+msgstr "Прцівники"
 
 #: .\employers\forms.py:45
 msgid "Logo URL"
@@ -153,7 +153,7 @@ msgstr ""
 
 #: .\employers\forms.py:50
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: .\employers\forms.py:55
 msgid "www"
@@ -161,91 +161,91 @@ msgstr ""
 
 #: .\employers\forms.py:82
 msgid "Contract Type"
-msgstr ""
+msgstr "Тип контакту"
 
 #: .\employers\forms.py:87
 msgid "Work Type"
-msgstr ""
+msgstr "Тип роботи"
 
 #: .\employers\forms.py:92
 msgid "Offers"
-msgstr ""
+msgstr "Пропозиції"
 
 #: .\employers\forms.py:98 .\templates\employers\job_details.html:11
 msgid "Employer"
-msgstr ""
+msgstr "Працедавець"
 
 #: .\employers\forms.py:103
 msgid "Location"
-msgstr ""
+msgstr "Місцерозташування"
 
 #: .\employers\forms.py:108
 msgid "Job Url"
-msgstr ""
+msgstr "Посилання на вакансію"
 
 #: .\templates\accounts\log_in.html:11 .\templates\accounts\log_in.html:32
 #: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:42
 msgid "Login"
-msgstr ""
+msgstr "Логін"
 
 #: .\templates\accounts\log_in.html:21 .\templates\accounts\register.html:38
 msgid "Username"
-msgstr ""
+msgstr "Користувач"
 
 #: .\templates\accounts\log_in.html:27 .\templates\accounts\register.html:48
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: .\templates\accounts\register.html:53
 msgid "Confirm Password"
-msgstr ""
+msgstr "Підтвердити пароль"
 
 #: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:39
 msgid "Register"
-msgstr ""
+msgstr "Зареєструвати"
 
 #: .\templates\employee_base.html:49
 msgid "Personal Info"
-msgstr ""
+msgstr "Персональна інформація"
 
 #: .\templates\employee_base.html:65
 msgid "Documents"
-msgstr ""
+msgstr "Документи"
 
 #: .\templates\employee_base.html:79
 #: .\templates\partials\contacts\_contacts_collapse.html:7
 msgid "Contacts"
-msgstr ""
+msgstr "Контакти"
 
 #: .\templates\employee_base.html:93
 msgid "Education"
-msgstr ""
+msgstr "Освіта"
 
 #: .\templates\employee_base.html:107
 msgid "Working Experience"
-msgstr ""
+msgstr "Досвід роботи"
 
 #: .\templates\employee_base.html:121 .\templates\employees\expectations.html:9
 msgid "Expectations"
-msgstr ""
+msgstr "Очікування"
 
 #: .\templates\employee_base.html:135
 msgid "Job Matches"
-msgstr ""
+msgstr "Допасувань вакансій"
 
 #: .\templates\employees\contacts.html:10
 #: .\templates\partials\contacts\_contacts_collapse.html:23
 #: .\templates\partials\contacts\_create_contact.html:19
 #: .\templates\partials\contacts\_modify_contact.html:19
 msgid "Contact Type"
-msgstr ""
+msgstr "Тип контакту"
 
 #: .\templates\employees\contacts.html:11
 #: .\templates\partials\contacts\_contacts_collapse.html:24
 #: .\templates\partials\contacts\_create_contact.html:26
 #: .\templates\partials\contacts\_modify_contact.html:33
 msgid "Contact Value"
-msgstr ""
+msgstr "Значення"
 
 #: .\templates\employees\documents.html:41
 #: .\templates\employees\education.html:41
@@ -263,106 +263,106 @@ msgstr ""
 #: .\templates\partials\experience\_add_experience.html:21
 #: .\templates\partials\specialities\_create_speciality.html:21
 msgid "Save Changes"
-msgstr ""
+msgstr "Зберігти зміни"
 
 #: .\templates\employees\employees.html:21
 msgid "Employee Photo"
-msgstr ""
+msgstr "Фото працівника"
 
 #: .\templates\employees\employees.html:22
 msgid "Employee Name"
-msgstr ""
+msgstr "Ім'я прицівника"
 
 #: .\templates\employees\employees.html:26
 msgid "Show More..."
-msgstr ""
+msgstr "Показати більше"
 
 #: .\templates\employees\employees.html:41
 #: .\templates\partials\employees\_employee_details_collapse.html:32
 msgid "Show more"
-msgstr ""
+msgstr "Показати більше"
 
 #: .\templates\employees\expectations.html:16
 msgid "Business Areas"
-msgstr ""
+msgstr "Сфера діяльності"
 
 #: .\templates\employees\expectations.html:29
 msgid "Specialities"
-msgstr ""
+msgstr "Спеціальності"
 
 #: .\templates\employees\expectations.html:43
 msgid "Countries"
-msgstr ""
+msgstr "Країни"
 
 #: .\templates\employees\expectations.html:60
 msgid "Min Salary"
-msgstr ""
+msgstr "Мін зарплата"
 
 #: .\templates\employees\job_matches.html:10
 msgid "Employers in desired Business Areas"
-msgstr ""
+msgstr "Працедавці в бажаних сферах діяльності "
 
 #: .\templates\employees\job_matches.html:32
 msgid "Jobs Matched"
-msgstr ""
+msgstr "Підібрано вакансій"
 
 #: .\templates\employees\job_matches.html:40
 #: .\templates\employers\job_details.html:14
 msgid "Job"
-msgstr ""
+msgstr "Вакансія"
 
 #: .\templates\employees\job_matches.html:41
 msgid "In Countries"
-msgstr ""
+msgstr "В країнах"
 
 #: .\templates\employees\job_matches.html:42
 msgid "In Salary"
-msgstr ""
+msgstr "В зарплаті"
 
 #: .\templates\employees\job_matches.html:43
 msgid "In Specialities"
-msgstr ""
+msgstr "В спеціальностях"
 
 #: .\templates\employees\job_matches.html:76
 msgid "No Matches so far"
-msgstr ""
+msgstr "Нема підібраних вакансій"
 
 #: .\templates\employers\employer_details.html:37
 msgid "Jobs"
-msgstr ""
+msgstr "Вакансії"
 
 #: .\templates\employers\employers.html:9
 msgid "Create Employer"
-msgstr ""
+msgstr "Створити працедавця"
 
 #: .\templates\employers\employers.html:25
 #: .\templates\employers\job_listings.html:24
 msgid "See more"
-msgstr ""
+msgstr "Побачити більше"
 
 #: .\templates\employers\index.html:9
 msgid "Get Jobs"
-msgstr ""
+msgstr "Отримати вакансії"
 
 #: .\templates\partials\_navbar.html:16
 msgid "Jobs Listings"
-msgstr ""
+msgstr "Перелік вакансії"
 
 #: .\templates\partials\_navbar.html:17
 msgid "Employers"
-msgstr ""
+msgstr "Працедавці"
 
 #: .\templates\partials\_navbar.html:20
 msgid "How It Works"
-msgstr ""
+msgstr "Як це працює"
 
 #: .\templates\partials\_navbar.html:21
 msgid "About Us"
-msgstr ""
+msgstr "Про нас"
 
 #: .\templates\partials\_navbar.html:31
 msgid "Logout"
-msgstr ""
+msgstr "Вилогінитись"
 
 #: .\templates\partials\_pagination.html:11
 msgid "current"
@@ -370,21 +370,21 @@ msgstr ""
 
 #: .\templates\partials\contacts\_contacts_collapse.html:11
 msgid "Add New"
-msgstr ""
+msgstr "Добавити новий"
 
 #: .\templates\partials\contacts\_contacts_collapse.html:25
 #: .\templates\partials\documents\_documents_photo_collapse.html:19
 msgid "Actions"
-msgstr ""
+msgstr "Дії"
 
 #: .\templates\partials\contacts\_create_contact.html:3
 msgid "Create Contact"
-msgstr ""
+msgstr "Створити контакт"
 
 #: .\templates\partials\contacts\_create_contact.html:9
 #: .\templates\partials\contacts\_modify_contact.html:9
 msgid "New Contact"
-msgstr ""
+msgstr "Новий контакт"
 
 #: .\templates\partials\contacts\_create_contact.html:31
 #: .\templates\partials\contacts\_modify_contact.html:45
@@ -394,124 +394,124 @@ msgstr ""
 #: .\templates\partials\experience\_add_experience.html:22
 #: .\templates\partials\specialities\_create_speciality.html:22
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #: .\templates\partials\documents\_add_document.html:3
 msgid "Add New Document"
-msgstr ""
+msgstr "Додати новий документ"
 
 #: .\templates\partials\documents\_add_document.html:9
 msgid "New Document"
-msgstr ""
+msgstr "Додати документ"
 
 #: .\templates\partials\documents\_add_document_photo.html:3
 msgid "Add Document Photo"
-msgstr ""
+msgstr "Додати фото документу"
 
 #: .\templates\partials\documents\_add_document_photo.html:9
 msgid "New Document Photo"
-msgstr ""
+msgstr "Додати фото документа"
 
 #: .\templates\partials\documents\_document_photo_preview.html:17
 msgid "Document Photo"
-msgstr ""
+msgstr "Фото документа"
 
 #: .\templates\partials\documents\_documents_photo_collapse.html:4
 msgid "Document Photos"
-msgstr ""
+msgstr "Фотографії документа"
 
 #: .\templates\partials\documents\_documents_photo_collapse.html:17
 msgid "Photo"
-msgstr ""
+msgstr "Фото"
 
 #: .\templates\partials\education\_add_education.html:3
 msgid "Add New Education"
-msgstr ""
+msgstr "Додати нову освіту"
 
 #: .\templates\partials\education\_add_education.html:9
 msgid "New Education"
-msgstr ""
+msgstr "Нова освіта"
 
 #: .\templates\partials\employees\_create_employee.html:3
 #: .\templates\partials\employees\_create_employee.html:9
 msgid "Create Employee"
-msgstr ""
+msgstr "Створити працівника"
 
 #: .\templates\partials\employees\_employee_details_collapse.html:28
 msgid "Address"
-msgstr ""
+msgstr "Адреса"
 
 #: .\templates\partials\employees\_employee_details_collapse.html:29
 msgid "Avaibalility"
-msgstr ""
+msgstr "Доступність"
 
 #: .\templates\partials\employees\_search_bar.html:10
 msgid "Create"
-msgstr ""
+msgstr "Створити"
 
 #: .\templates\partials\employers\base\_matched_employees.html:2
 msgid "Matched Employees"
-msgstr ""
+msgstr "Допасовані працівники"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:13
 msgid "Keywords"
-msgstr ""
+msgstr "Ключові слова"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:15
 msgid "Keyword (Work From Home, Engineer, etc)"
-msgstr ""
+msgstr "Ключове слово (Праця здальна, Інженер, і т.п.)"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:25
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:27
 msgid "Get More Jobs"
-msgstr ""
+msgstr "Отримати більше вакансій"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:28
 msgid "Create Job"
-msgstr ""
+msgstr "Створити вакансію"
 
 #: .\templates\partials\experience\_add_experience.html:3
 msgid "Add New Experience"
-msgstr ""
+msgstr "Додати новий досвід"
 
 #: .\templates\partials\experience\_add_experience.html:9
 msgid "New Experience"
-msgstr ""
+msgstr "Новий досвід"
 
 #: .\templates\partials\messages\_alerts.html:9
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 #: .\templates\partials\specialities\_create_speciality.html:3
 msgid "Create Speciality"
-msgstr ""
+msgstr "Створити спеціальність"
 
 #: .\templates\partials\specialities\_create_speciality.html:9
 msgid "New Speciality"
-msgstr ""
+msgstr "Нова спеціальність"
 
 #: .\venv\Lib\site-packages\django-bs4\templates\bs4\pagination.html:6
 msgid "Previous"
-msgstr ""
+msgstr "Попередня"
 
 #: .\venv\Lib\site-packages\django-bs4\templates\bs4\pagination.html:26
 msgid "Next"
-msgstr ""
+msgstr "Наступна"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
 msgid "Site Maps"
-msgstr ""
+msgstr "мапа сайту"
 
 #: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Статичні поля"
 
 #: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
 msgid "Syndication"

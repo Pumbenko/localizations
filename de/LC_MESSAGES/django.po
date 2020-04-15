@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 18:59+0200\n"
+"POT-Creation-Date: 2020-04-07 10:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,231 +18,81 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\employees\forms.py:39 .\templates\accounts\register.html:21
-msgid "First Name"
-msgstr ""
-
-#: .\employees\forms.py:42 .\templates\accounts\register.html:27
-msgid "Last Name"
-msgstr ""
-
-#: .\employees\forms.py:45
-msgid "Living Address"
-msgstr ""
-
-#: .\employees\forms.py:48
-msgid "Registration Address"
-msgstr ""
-
-#: .\employees\forms.py:52
-msgid "Birth Date"
-msgstr ""
-
-#: .\employees\forms.py:55
-msgid "Gender"
-msgstr ""
-
-#: .\employees\forms.py:59
-msgid "Country Of Origin"
-msgstr ""
-
-#: .\employees\forms.py:62 .\templates\employees\employees.html:24
-msgid "Availability"
-msgstr ""
-
-#: .\employees\forms.py:78
-msgid "Document Type"
-msgstr ""
-
-#: .\employees\forms.py:82
-msgid "Document Series"
-msgstr ""
-
-#: .\employees\forms.py:85
-msgid "Document Number"
-msgstr ""
-
-#: .\employees\forms.py:88
-msgid "Date Of Issue"
-msgstr ""
-
-#: .\employees\forms.py:91
-msgid "Expiration Date"
-msgstr ""
-
-#: .\employees\forms.py:94
-msgid "Authority Issued"
-msgstr ""
-
-#: .\employees\forms.py:97
-msgid "Note"
-msgstr ""
-
-#: .\employees\forms.py:106
-#: .\templates\partials\documents\_documents_photo_collapse.html:18
-msgid "Description"
-msgstr ""
-
-#: .\employees\forms.py:122
-msgid "Education Start"
-msgstr ""
-
-#: .\employees\forms.py:125
-msgid "Education End"
-msgstr ""
-
-#: .\employees\forms.py:128
-msgid "Institution"
-msgstr ""
-
-#: .\employees\forms.py:131 .\templates\employees\employees.html:23
-msgid "Speciality"
-msgstr ""
-
-#: .\employees\forms.py:135
-msgid "Education Level"
-msgstr ""
-
-#: .\employees\forms.py:153
-msgid "Company"
-msgstr ""
-
-#: .\employees\forms.py:156 .\employers\forms.py:76
-#: .\templates\partials\employers\job_listings\_search_bar.html:21
-msgid "Job Title"
-msgstr ""
-
-#: .\employees\forms.py:159
-msgid "Start Working"
-msgstr ""
-
-#: .\employees\forms.py:162
-msgid "Finish Working"
-msgstr ""
-
-#: .\employees\forms.py:165
-msgid "Duties"
-msgstr ""
-
-#: .\employees\forms.py:168
-msgid "Business Area"
-msgstr ""
-
-#: .\employers\forms.py:23
-msgid "Name"
-msgstr ""
-
-#: .\employers\forms.py:29
-msgid "Company Url"
-msgstr ""
-
-#: .\employers\forms.py:34 .\templates\accounts\register.html:43
-msgid "Email"
-msgstr ""
-
-#: .\employers\forms.py:39 .\templates\partials\_navbar.html:15
-msgid "Employees"
-msgstr ""
-
-#: .\employers\forms.py:45
-msgid "Logo URL"
-msgstr ""
-
-#: .\employers\forms.py:50
-msgid "Phone"
-msgstr ""
-
-#: .\employers\forms.py:55
-msgid "www"
-msgstr ""
-
-#: .\employers\forms.py:82
-msgid "Contract Type"
-msgstr ""
-
-#: .\employers\forms.py:87
-msgid "Work Type"
-msgstr ""
-
-#: .\employers\forms.py:92
-msgid "Offers"
-msgstr ""
-
-#: .\employers\forms.py:98 .\templates\employers\job_details.html:11
-msgid "Employer"
-msgstr ""
-
-#: .\employers\forms.py:103
-msgid "Location"
-msgstr ""
-
-#: .\employers\forms.py:108
-msgid "Job Url"
-msgstr ""
-
 #: .\templates\accounts\log_in.html:11 .\templates\accounts\log_in.html:32
 #: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:42
 msgid "Login"
-msgstr ""
+msgstr "Anmelgung"
 
 #: .\templates\accounts\log_in.html:21 .\templates\accounts\register.html:38
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: .\templates\accounts\log_in.html:27 .\templates\accounts\register.html:48
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
+
+#: .\templates\accounts\register.html:21
+msgid "First Name"
+msgstr "Name"
+
+#: .\templates\accounts\register.html:27
+msgid "Last Name"
+msgstr "Nachname"
+
+#: .\templates\accounts\register.html:43
+msgid "Email"
+msgstr "E-Mail"
 
 #: .\templates\accounts\register.html:53
 msgid "Confirm Password"
-msgstr ""
+msgstr "Passwort bestätigen"
 
 #: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:39
 msgid "Register"
-msgstr ""
+msgstr "Anmelden"
 
 #: .\templates\employee_base.html:49
-msgid "Personal Info"
+msgid "Personenbezogene Daten"
 msgstr ""
 
 #: .\templates\employee_base.html:65
 msgid "Documents"
-msgstr ""
+msgstr "Dokumente"
 
 #: .\templates\employee_base.html:79
 #: .\templates\partials\contacts\_contacts_collapse.html:7
 msgid "Contacts"
-msgstr ""
+msgstr "Kontakte"
 
 #: .\templates\employee_base.html:93
 msgid "Education"
-msgstr ""
+msgstr "Ausbildung"
 
 #: .\templates\employee_base.html:107
 msgid "Working Experience"
-msgstr ""
+msgstr "Berufserfahrung"
 
-#: .\templates\employee_base.html:121 .\templates\employees\expectations.html:9
+#: .\templates\employee_base.html:121
 msgid "Expectations"
-msgstr ""
+msgstr "Erwartungen"
 
 #: .\templates\employee_base.html:135
 msgid "Job Matches"
-msgstr ""
+msgstr "Jobanpassungen"
 
 #: .\templates\employees\contacts.html:10
 #: .\templates\partials\contacts\_contacts_collapse.html:23
 #: .\templates\partials\contacts\_create_contact.html:19
 #: .\templates\partials\contacts\_modify_contact.html:19
 msgid "Contact Type"
-msgstr ""
+msgstr "Vertragstyp"
 
 #: .\templates\employees\contacts.html:11
 #: .\templates\partials\contacts\_contacts_collapse.html:24
 #: .\templates\partials\contacts\_create_contact.html:26
 #: .\templates\partials\contacts\_modify_contact.html:33
 msgid "Contact Value"
-msgstr ""
+msgstr "Werte"
 
 #: .\templates\employees\documents.html:41
 #: .\templates\employees\education.html:41
@@ -260,106 +110,98 @@ msgstr ""
 #: .\templates\partials\experience\_add_experience.html:21
 #: .\templates\partials\specialities\_create_speciality.html:21
 msgid "Save Changes"
-msgstr ""
+msgstr "Speichern"
 
-#: .\templates\employees\employees.html:21
-msgid "Employee Photo"
-msgstr ""
-
-#: .\templates\employees\employees.html:22
-msgid "Employee Name"
-msgstr ""
-
-#: .\templates\employees\employees.html:26
-msgid "Show More..."
-msgstr ""
-
-#: .\templates\employees\employees.html:41
-#: .\templates\partials\employees\_employee_details_collapse.html:32
-msgid "Show more"
-msgstr ""
-
+#: .\templates\employees\expectations.html:9
 #: .\templates\employees\expectations.html:16
 msgid "Business Areas"
-msgstr ""
+msgstr "Fachgebiet"
 
 #: .\templates\employees\expectations.html:29
 msgid "Specialities"
-msgstr ""
+msgstr "Spezialisierungen"
 
 #: .\templates\employees\expectations.html:43
 msgid "Countries"
-msgstr ""
+msgstr "Länder"
 
 #: .\templates\employees\expectations.html:60
 msgid "Min Salary"
-msgstr ""
+msgstr "Mindestlohn"
 
 #: .\templates\employees\job_matches.html:10
-msgid "Employers in desired Business Areas"
-msgstr ""
+msgid "Eployers in desired Business Areas"
+msgstr "Arbeitgeber in gewünschtem Fachgebiet"
 
 #: .\templates\employees\job_matches.html:32
 msgid "Jobs Matched"
-msgstr ""
+msgstr "Jobs angepasst"
 
 #: .\templates\employees\job_matches.html:40
 #: .\templates\employers\job_details.html:14
 msgid "Job"
-msgstr ""
+msgstr "Job"
 
 #: .\templates\employees\job_matches.html:41
 msgid "In Countries"
-msgstr ""
+msgstr "In Ländern"
 
 #: .\templates\employees\job_matches.html:42
 msgid "In Salary"
-msgstr ""
+msgstr "In Lohn"
 
 #: .\templates\employees\job_matches.html:43
 msgid "In Specialities"
-msgstr ""
+msgstr "In Spezialisierungen"
 
 #: .\templates\employees\job_matches.html:76
 msgid "No Matches so far"
-msgstr ""
+msgstr "Keine Anpassungen bis jetzt"
 
 #: .\templates\employers\employer_details.html:37
 msgid "Jobs"
-msgstr ""
+msgstr "Jobs"
 
 #: .\templates\employers\employers.html:9
 msgid "Create Employer"
-msgstr ""
+msgstr "Arbeitgeber anlegen"
 
 #: .\templates\employers\employers.html:25
 #: .\templates\employers\job_listings.html:24
 msgid "See more"
-msgstr ""
+msgstr "Erweitern"
 
 #: .\templates\employers\index.html:9
 msgid "Get Jobs"
-msgstr ""
+msgstr "Jobs bekommen"
+
+#: .\templates\employers\job_details.html:11
+msgid "Employer"
+msgstr "Arbeitgeber"
+
+#: .\templates\partials\_navbar.html:15
+msgid "Employees"
+msgstr "Bewerber"
 
 #: .\templates\partials\_navbar.html:16
 msgid "Jobs Listings"
-msgstr ""
+msgstr "Jobliste"
 
 #: .\templates\partials\_navbar.html:17
 msgid "Employers"
-msgstr ""
+msgstr "Arbeitgeber"
 
 #: .\templates\partials\_navbar.html:20
 msgid "How It Works"
-msgstr ""
+msgstr "Wie arbeitet das"
 
 #: .\templates\partials\_navbar.html:21
 msgid "About Us"
-msgstr ""
+msgstr "Über uns"
 
 #: .\templates\partials\_navbar.html:31
 msgid "Logout"
-msgstr ""
+msgstr "Ausloggen"
 
 #: .\templates\partials\_pagination.html:11
 msgid "current"
@@ -367,7 +209,7 @@ msgstr ""
 
 #: .\templates\partials\contacts\_contacts_collapse.html:11
 msgid "Add New"
-msgstr ""
+msgstr "Hinzufügen"
 
 #: .\templates\partials\contacts\_contacts_collapse.html:25
 #: .\templates\partials\documents\_documents_photo_collapse.html:19
@@ -376,12 +218,12 @@ msgstr ""
 
 #: .\templates\partials\contacts\_create_contact.html:3
 msgid "Create Contact"
-msgstr ""
+msgstr "Kontakt erstellen"
 
 #: .\templates\partials\contacts\_create_contact.html:9
 #: .\templates\partials\contacts\_modify_contact.html:9
 msgid "New Contact"
-msgstr ""
+msgstr "Neue Kontakt"
 
 #: .\templates\partials\contacts\_create_contact.html:31
 #: .\templates\partials\contacts\_modify_contact.html:45
@@ -391,124 +233,136 @@ msgstr ""
 #: .\templates\partials\experience\_add_experience.html:22
 #: .\templates\partials\specialities\_create_speciality.html:22
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: .\templates\partials\documents\_add_document.html:3
 msgid "Add New Document"
-msgstr ""
+msgstr "Neues Dokument hinzufügen"
 
 #: .\templates\partials\documents\_add_document.html:9
 msgid "New Document"
-msgstr ""
+msgstr "Neues Dokument"
 
 #: .\templates\partials\documents\_add_document_photo.html:3
 msgid "Add Document Photo"
-msgstr ""
+msgstr "Foto des Dokumentes hinzufügen"
 
 #: .\templates\partials\documents\_add_document_photo.html:9
 msgid "New Document Photo"
-msgstr ""
+msgstr "Foto des neuen Dokuments"
 
 #: .\templates\partials\documents\_document_photo_preview.html:17
 msgid "Document Photo"
-msgstr ""
+msgstr "Foto des Dokumentes"
 
 #: .\templates\partials\documents\_documents_photo_collapse.html:4
 msgid "Document Photos"
-msgstr ""
+msgstr "Foto der Dokumenten"
 
 #: .\templates\partials\documents\_documents_photo_collapse.html:17
 msgid "Photo"
-msgstr ""
+msgstr "Foto"
+
+#: .\templates\partials\documents\_documents_photo_collapse.html:18
+msgid "Description"
+msgstr "Beschreibung"
 
 #: .\templates\partials\education\_add_education.html:3
 msgid "Add New Education"
-msgstr ""
+msgstr "Neue Ausbildung hinzufügen"
 
 #: .\templates\partials\education\_add_education.html:9
 msgid "New Education"
-msgstr ""
+msgstr "Ausbildung hinzufügen"
 
 #: .\templates\partials\employees\_create_employee.html:3
 #: .\templates\partials\employees\_create_employee.html:9
 msgid "Create Employee"
-msgstr ""
+msgstr "Bewerber erstellen"
+
+#: .\templates\partials\employees\_employee_details_collapse.html:24
+msgid "Address"
+msgstr "Adresse"
+
+#: .\templates\partials\employees\_employee_details_collapse.html:25
+msgid "Avaibalility"
+msgstr "Verfügbarkeit"
 
 #: .\templates\partials\employees\_employee_details_collapse.html:28
-msgid "Address"
-msgstr ""
-
-#: .\templates\partials\employees\_employee_details_collapse.html:29
-msgid "Avaibalility"
-msgstr ""
+msgid "Show more"
+msgstr "Erweitern"
 
 #: .\templates\partials\employees\_search_bar.html:10
 msgid "Create"
-msgstr ""
+msgstr "Anlegen"
 
 #: .\templates\partials\employers\base\_matched_employees.html:2
 msgid "Matched Employees"
-msgstr ""
+msgstr "Anpassende Bewerber"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:13
 msgid "Keywords"
-msgstr ""
+msgstr "Schlüsselwörter"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:15
-msgid "Keyword (Work From Home, Engineer, etc)"
-msgstr ""
+msgid "Keyword (Work From Home, Ingener, etc)"
+msgstr "Schlüsselwort (Heimarbeit, Inge )"
+
+#: .\templates\partials\employers\job_listings\_search_bar.html:21
+msgid "Job Title"
+msgstr "Stellenbezeichnung"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:25
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:27
 msgid "Get More Jobs"
-msgstr ""
+msgstr "Mehr Jobs"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:28
 msgid "Create Job"
-msgstr ""
+msgstr "Job anlegen`"
 
 #: .\templates\partials\experience\_add_experience.html:3
 msgid "Add New Experience"
-msgstr ""
+msgstr "Neue Berufserfahrung hinzufügen"
 
 #: .\templates\partials\experience\_add_experience.html:9
 msgid "New Experience"
-msgstr ""
+msgstr "Neue Berufserfahrung"
 
 #: .\templates\partials\messages\_alerts.html:9
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: .\templates\partials\specialities\_create_speciality.html:3
 msgid "Create Speciality"
-msgstr ""
+msgstr "Spezialisierung anlegen"
 
 #: .\templates\partials\specialities\_create_speciality.html:9
 msgid "New Speciality"
-msgstr ""
+msgstr "Neue Spezialisierung"
 
 #: .\venv\Lib\site-packages\django-bs4\templates\bs4\pagination.html:6
 msgid "Previous"
-msgstr ""
+msgstr "Zurück"
 
 #: .\venv\Lib\site-packages\django-bs4\templates\bs4\pagination.html:26
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
 msgid "Messages"
-msgstr ""
+msgstr "Nachrichten"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
 msgid "Site Maps"
-msgstr ""
+msgstr "Seitenübersicht"
 
 #: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Statische Felder"
 
 #: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
 msgid "Syndication"

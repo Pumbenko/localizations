@@ -145,7 +145,7 @@ msgstr "Імейл"
 
 #: .\employers\forms.py:39 .\templates\partials\_navbar.html:15
 msgid "Employees"
-msgstr "Прцівники"
+msgstr "Працівники"
 
 #: .\employers\forms.py:45
 msgid "Logo URL"

@@ -35,7 +35,7 @@ msgstr "Адреса проживання"
 
 #: .\employees\forms.py:48
 msgid "Registration Address"
-msgstr "Адреса проживання"
+msgstr "Адреса рєестрації"
 
 #: .\employees\forms.py:52
 msgid "Birth Date"
@@ -137,7 +137,7 @@ msgstr "Ім'я"
 
 #: .\employers\forms.py:29
 msgid "Company Url"
-msgstr ""
+msgstr "Посилання на компанію"
 
 #: .\employers\forms.py:34 .\templates\accounts\register.html:43
 msgid "Email"
@@ -149,7 +149,7 @@ msgstr "Працівники"
 
 #: .\employers\forms.py:45
 msgid "Logo URL"
-msgstr ""
+msgstr "Логотип"
 
 #: .\employers\forms.py:50
 msgid "Phone"
@@ -157,11 +157,11 @@ msgstr "Телефон"
 
 #: .\employers\forms.py:55
 msgid "www"
-msgstr ""
+msgstr "www"
 
 #: .\employers\forms.py:82
 msgid "Contract Type"
-msgstr "Тип контакту"
+msgstr "Тип контракту"
 
 #: .\employers\forms.py:87
 msgid "Work Type"
@@ -271,7 +271,7 @@ msgstr "Фото працівника"
 
 #: .\templates\employees\employees.html:22
 msgid "Employee Name"
-msgstr "Ім'я прицівника"
+msgstr "Ім'я працівника"
 
 #: .\templates\employees\employees.html:26
 msgid "Show More..."
@@ -300,7 +300,7 @@ msgstr "Мін зарплата"
 
 #: .\templates\employees\job_matches.html:10
 msgid "Employers in desired Business Areas"
-msgstr "Працедавці в бажаних сферах діяльності "
+msgstr "Працедавці в бажаних сферах діяльності"
 
 #: .\templates\employees\job_matches.html:32
 msgid "Jobs Matched"
@@ -507,7 +507,7 @@ msgstr "Повідомлення"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
 msgid "Site Maps"
-msgstr "мапа сайту"
+msgstr "Мапа сайту"
 
 #: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 msgid "Static Files"

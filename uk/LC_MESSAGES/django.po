@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 18:59+0200\n"
+"POT-Creation-Date: 2020-04-17 12:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,7 @@ msgid "Country Of Origin"
 msgstr "Країна походження"
 
 #: .\employees\forms.py:62 .\templates\employees\employees.html:24
+#: .\templates\partials\employees\_employee_details_collapse.html:29
 msgid "Availability"
 msgstr "Доступність"
 
@@ -69,7 +70,8 @@ msgstr "Номер документу"
 msgid "Date Of Issue"
 msgstr "Дата випуску"
 
-#: .\employees\forms.py:91
+#: .\employees\forms.py:91 .\employers\forms.py:135
+#: .\templates\partials\employers\contracts\_employer_contracts.html:8
 msgid "Expiration Date"
 msgstr "Дата закінчення строку дії"
 
@@ -171,7 +173,8 @@ msgstr "Тип роботи"
 msgid "Offers"
 msgstr "Пропозиції"
 
-#: .\employers\forms.py:98 .\templates\employers\job_details.html:11
+#: .\employers\forms.py:98 .\employers\forms.py:124
+#: .\templates\employers\job_details.html:11
 msgid "Employer"
 msgstr "Працедавець"
 
@@ -183,8 +186,20 @@ msgstr "Місцерозташування"
 msgid "Job Url"
 msgstr "Посилання на вакансію"
 
+#: .\employers\forms.py:131
+#: .\templates\partials\employers\contracts\_employer_contracts.html:7
+msgid "Signing Date"
+msgstr ""
+
+#: .\employers\forms.py:139
+#: .\templates\partials\employers\contracts\_employer_contracts.html:23
+#, fuzzy
+#| msgid "Contract Type"
+msgid "Contract Details"
+msgstr "Тип контракту"
+
 #: .\templates\accounts\log_in.html:11 .\templates\accounts\log_in.html:32
-#: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:42
+#: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:43
 msgid "Login"
 msgstr "Логін"
 
@@ -200,7 +215,7 @@ msgstr "Пароль"
 msgid "Confirm Password"
 msgstr "Підтвердити пароль"
 
-#: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:39
+#: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:40
 msgid "Register"
 msgstr "Зареєструвати"
 
@@ -252,6 +267,7 @@ msgstr "Значення"
 #: .\templates\employees\employee.html:79
 #: .\templates\employees\expectations.html:63
 #: .\templates\employees\experience.html:38
+#: .\templates\employers\contract_details.html:17
 #: .\templates\employers\employer_details.html:34
 #: .\templates\employers\job_details.html:39
 #: .\templates\partials\contacts\_create_contact.html:30
@@ -274,6 +290,7 @@ msgid "Employee Name"
 msgstr "Ім'я працівника"
 
 #: .\templates\employees\employees.html:26
+#: .\templates\partials\employers\contracts\_employer_contracts.html:10
 msgid "Show More..."
 msgstr "Показати більше"
 
@@ -327,6 +344,12 @@ msgstr "В спеціальностях"
 msgid "No Matches so far"
 msgstr "Нема підібраних вакансій"
 
+#: .\templates\employers\contracts_list.html:22
+#: .\templates\employers\employers.html:25
+#: .\templates\employers\job_listings.html:24
+msgid "See more"
+msgstr "Побачити більше"
+
 #: .\templates\employers\employer_details.html:37
 msgid "Jobs"
 msgstr "Вакансії"
@@ -334,11 +357,6 @@ msgstr "Вакансії"
 #: .\templates\employers\employers.html:9
 msgid "Create Employer"
 msgstr "Створити працедавця"
-
-#: .\templates\employers\employers.html:25
-#: .\templates\employers\job_listings.html:24
-msgid "See more"
-msgstr "Побачити більше"
 
 #: .\templates\employers\index.html:9
 msgid "Get Jobs"
@@ -352,15 +370,25 @@ msgstr "Перелік вакансії"
 msgid "Employers"
 msgstr "Працедавці"
 
-#: .\templates\partials\_navbar.html:20
+#: .\templates\partials\_navbar.html:18
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contracts"
+msgstr "Контакти"
+
+#: .\templates\partials\_navbar.html:21
 msgid "How It Works"
 msgstr "Як це працює"
 
-#: .\templates\partials\_navbar.html:21
+#: .\templates\partials\_navbar.html:22
 msgid "About Us"
 msgstr "Про нас"
 
-#: .\templates\partials\_navbar.html:31
+#: .\templates\partials\_navbar.html:27
+msgid "Welcome"
+msgstr ""
+
+#: .\templates\partials\_navbar.html:32
 msgid "Logout"
 msgstr "Вилогінитись"
 
@@ -441,10 +469,6 @@ msgstr "Створити працівника"
 msgid "Address"
 msgstr "Адреса"
 
-#: .\templates\partials\employees\_employee_details_collapse.html:29
-msgid "Avaibalility"
-msgstr "Доступність"
-
 #: .\templates\partials\employees\_search_bar.html:10
 msgid "Create"
 msgstr "Створити"
@@ -452,6 +476,18 @@ msgstr "Створити"
 #: .\templates\partials\employers\base\_matched_employees.html:2
 msgid "Matched Employees"
 msgstr "Допасовані працівники"
+
+#: .\templates\partials\employers\contracts\_employer_contracts.html:6
+#, fuzzy
+#| msgid "Contract Type"
+msgid "Contract Number"
+msgstr "Тип контракту"
+
+#: .\templates\partials\employers\contracts\_search_bar.html:10
+#, fuzzy
+#| msgid "Contacts"
+msgid "Add Contract"
+msgstr "Контакти"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:13
 msgid "Keywords"
@@ -1672,3 +1708,6 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:409
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "Avaibalility"
+#~ msgstr "Доступність"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-10 18:59+0200\n"
+"POT-Creation-Date: 2020-04-17 12:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,6 @@ msgid "Living Address"
 msgstr "Адрес проживания"
 
 #: .\employees\forms.py:48
-
 msgid "Registration Address"
 msgstr "Адрес регистрации"
 
@@ -50,6 +49,7 @@ msgid "Country Of Origin"
 msgstr "Страна происхождения"
 
 #: .\employees\forms.py:62 .\templates\employees\employees.html:24
+#: .\templates\partials\employees\_employee_details_collapse.html:29
 #, fuzzy
 #| msgid "Avaibalility"
 msgid "Availability"
@@ -64,7 +64,6 @@ msgid "Document Series"
 msgstr "Серия документа"
 
 #: .\employees\forms.py:85
-
 msgid "Document Number"
 msgstr "Номер документа"
 
@@ -72,7 +71,8 @@ msgstr "Номер документа"
 msgid "Date Of Issue"
 msgstr "Дата выдачи"
 
-#: .\employees\forms.py:91
+#: .\employees\forms.py:91 .\employers\forms.py:135
+#: .\templates\partials\employers\contracts\_employer_contracts.html:8
 msgid "Expiration Date"
 msgstr "Дата окончания срока важности"
 
@@ -90,12 +90,10 @@ msgid "Description"
 msgstr "Описание"
 
 #: .\employees\forms.py:122
-
 msgid "Education Start"
 msgstr "Начало образования"
 
 #: .\employees\forms.py:125
-
 msgid "Education End"
 msgstr "Образование"
 
@@ -104,7 +102,6 @@ msgid "Institution"
 msgstr "Учреждение"
 
 #: .\employees\forms.py:131 .\templates\employees\employees.html:23
-
 msgid "Speciality"
 msgstr "Новая специальность"
 
@@ -134,12 +131,10 @@ msgid "Duties"
 msgstr "Обязанности"
 
 #: .\employees\forms.py:168
-
 msgid "Business Area"
 msgstr "Сфера деятельности"
 
 #: .\employers\forms.py:23
-
 msgid "Name"
 msgstr "Имя"
 
@@ -168,7 +163,6 @@ msgid "www"
 msgstr "Страница интернета"
 
 #: .\employers\forms.py:82
-
 msgid "Contract Type"
 msgstr "Тип контакта"
 
@@ -180,22 +174,33 @@ msgstr "Тип работы"
 msgid "Offers"
 msgstr "Предложения"
 
-#: .\employers\forms.py:98 .\templates\employers\job_details.html:11
+#: .\employers\forms.py:98 .\employers\forms.py:124
+#: .\templates\employers\job_details.html:11
 msgid "Employer"
 msgstr "Работодатель"
 
 #: .\employers\forms.py:103
-
 msgid "Location"
 msgstr "Образование"
 
 #: .\employers\forms.py:108
-
 msgid "Job Url"
 msgstr "Название вакансии"
 
+#: .\employers\forms.py:131
+#: .\templates\partials\employers\contracts\_employer_contracts.html:7
+msgid "Signing Date"
+msgstr ""
+
+#: .\employers\forms.py:139
+#: .\templates\partials\employers\contracts\_employer_contracts.html:23
+#, fuzzy
+#| msgid "Contract Type"
+msgid "Contract Details"
+msgstr "Тип контакта"
+
 #: .\templates\accounts\log_in.html:11 .\templates\accounts\log_in.html:32
-#: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:42
+#: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:43
 msgid "Login"
 msgstr "Логин"
 
@@ -211,7 +216,7 @@ msgstr "Пароль"
 msgid "Confirm Password"
 msgstr "Подтвердите пароль"
 
-#: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:39
+#: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:40
 msgid "Register"
 msgstr "Зарегистрировать"
 
@@ -263,6 +268,7 @@ msgstr "Значение"
 #: .\templates\employees\employee.html:79
 #: .\templates\employees\expectations.html:63
 #: .\templates\employees\experience.html:38
+#: .\templates\employers\contract_details.html:17
 #: .\templates\employers\employer_details.html:34
 #: .\templates\employers\job_details.html:39
 #: .\templates\partials\contacts\_create_contact.html:30
@@ -289,6 +295,7 @@ msgid "Employee Name"
 msgstr "Соискатели"
 
 #: .\templates\employees\employees.html:26
+#: .\templates\partials\employers\contracts\_employer_contracts.html:10
 #, fuzzy
 #| msgid "Show more"
 msgid "Show More..."
@@ -346,6 +353,12 @@ msgstr "По специальностям"
 msgid "No Matches so far"
 msgstr "Нет подходящих вакансий"
 
+#: .\templates\employers\contracts_list.html:22
+#: .\templates\employers\employers.html:25
+#: .\templates\employers\job_listings.html:24
+msgid "See more"
+msgstr "Подробнее"
+
 #: .\templates\employers\employer_details.html:37
 msgid "Jobs"
 msgstr "Вакансии"
@@ -353,11 +366,6 @@ msgstr "Вакансии"
 #: .\templates\employers\employers.html:9
 msgid "Create Employer"
 msgstr "Создать работодателя"
-
-#: .\templates\employers\employers.html:25
-#: .\templates\employers\job_listings.html:24
-msgid "See more"
-msgstr "Подробнее"
 
 #: .\templates\employers\index.html:9
 msgid "Get Jobs"
@@ -371,15 +379,25 @@ msgstr "Все вакансии"
 msgid "Employers"
 msgstr "Работодатели"
 
-#: .\templates\partials\_navbar.html:20
+#: .\templates\partials\_navbar.html:18
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contracts"
+msgstr "Контакты"
+
+#: .\templates\partials\_navbar.html:21
 msgid "How It Works"
 msgstr "Как это работает?"
 
-#: .\templates\partials\_navbar.html:21
+#: .\templates\partials\_navbar.html:22
 msgid "About Us"
 msgstr "Про нас"
 
-#: .\templates\partials\_navbar.html:31
+#: .\templates\partials\_navbar.html:27
+msgid "Welcome"
+msgstr ""
+
+#: .\templates\partials\_navbar.html:32
 msgid "Logout"
 msgstr ""
 
@@ -464,10 +482,6 @@ msgstr "Создать соискателя"
 msgid "Address"
 msgstr "Адрес"
 
-#: .\templates\partials\employees\_employee_details_collapse.html:29
-msgid "Avaibalility"
-msgstr "Доступность"
-
 #: .\templates\partials\employees\_search_bar.html:10
 msgid "Create"
 msgstr "Создать"
@@ -476,12 +490,23 @@ msgstr "Создать"
 msgid "Matched Employees"
 msgstr "Подходящие соискатели"
 
+#: .\templates\partials\employers\contracts\_employer_contracts.html:6
+#, fuzzy
+#| msgid "Contract Type"
+msgid "Contract Number"
+msgstr "Тип контакта"
+
+#: .\templates\partials\employers\contracts\_search_bar.html:10
+#, fuzzy
+#| msgid "Contacts"
+msgid "Add Contract"
+msgstr "Контакты"
+
 #: .\templates\partials\employers\job_listings\_search_bar.html:13
 msgid "Keywords"
 msgstr "Ключевые слова"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:15
-#| msgid "Keyword (Work From Home, Ingener, etc)"
 msgid "Keyword (Work From Home, Engineer, etc)"
 msgstr "Ключевые слова (Работа из дома, инженер, и т.д. )"
 
@@ -1696,6 +1721,9 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:409
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "Avaibalility"
+#~ msgstr "Доступность"
 
 #, fuzzy
 #~| msgid "Documents"

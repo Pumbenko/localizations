@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-17 12:53+0200\n"
+"POT-Creation-Date: 2020-05-10 20:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,137 +18,263 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\employees\forms.py:39 .\templates\accounts\register.html:21
+#: .\back_end\choices.py:6
+msgid "mobilephone"
+msgstr ""
+
+#: .\back_end\choices.py:7
+msgid "homephone"
+msgstr ""
+
+#: .\back_end\choices.py:8
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "E-Mail"
+
+#: .\back_end\choices.py:12
+msgid "passport"
+msgstr ""
+
+#: .\back_end\choices.py:13
+msgid "dyploma"
+msgstr ""
+
+#: .\back_end\choices.py:14
+msgid "other"
+msgstr ""
+
+#: .\back_end\choices.py:15
+msgid "residence permit"
+msgstr ""
+
+#: .\back_end\choices.py:19
+msgid "male"
+msgstr ""
+
+#: .\back_end\choices.py:20
+msgid "female"
+msgstr ""
+
+#: .\back_end\choices.py:24
+msgid "No Info"
+msgstr ""
+
+#: .\back_end\choices.py:25
+#, fuzzy
+#| msgid "Avaibalility"
+msgid "Available"
+msgstr "Verfügbarkeit"
+
+#: .\back_end\choices.py:26
+#, fuzzy
+#| msgid "Avaibalility"
+msgid "Unavailable"
+msgstr "Verfügbarkeit"
+
+#: .\back_end\choices.py:27
+#, fuzzy
+#| msgid "Avaibalility"
+msgid "Available Soon"
+msgstr "Verfügbarkeit"
+
+#: .\back_end\choices.py:32
+msgid "Ukraine"
+msgstr ""
+
+#: .\back_end\choices.py:33
+msgid "Russia"
+msgstr ""
+
+#: .\back_end\choices.py:34
+msgid "Bielorus"
+msgstr ""
+
+#: .\back_end\choices.py:38
+msgid "basic"
+msgstr ""
+
+#: .\back_end\choices.py:39
+msgid "middle"
+msgstr ""
+
+#: .\back_end\choices.py:40
+msgid "high"
+msgstr ""
+
+#: .\back_end\choices.py:41
+msgid "science degree"
+msgstr ""
+
+#: .\back_end\choices.py:45
+msgid "Permanent labour contract"
+msgstr ""
+
+#: .\back_end\choices.py:46
+msgid "Fixed-term labour contract"
+msgstr ""
+
+#: .\back_end\choices.py:47
+msgid "Contract with a recruitment agency"
+msgstr ""
+
+#: .\back_end\choices.py:48
+msgid "Mini job contract"
+msgstr ""
+
+#: .\back_end\choices.py:49
+msgid "Freelancer contracts"
+msgstr ""
+
+#: .\back_end\choices.py:50
+msgid "Contract for (specific) work"
+msgstr ""
+
+#: .\back_end\choices.py:54
+msgid "full time"
+msgstr ""
+
+#: .\back_end\choices.py:55
+msgid "part time"
+msgstr ""
+
+#: .\employees\forms.py:27 .\templates\accounts\register.html:21
 msgid "First Name"
 msgstr "Name"
 
-#: .\employees\forms.py:42 .\templates\accounts\register.html:27
+#: .\employees\forms.py:30 .\templates\accounts\register.html:27
 msgid "Last Name"
 msgstr "Nachname"
 
-#: .\employees\forms.py:45
+#: .\employees\forms.py:33
 #, fuzzy
 #| msgid "Address"
 msgid "Living Address"
 msgstr "Adresse"
 
-#: .\employees\forms.py:48
+#: .\employees\forms.py:36
 msgid "Registration Address"
 msgstr ""
 
-#: .\employees\forms.py:52
+#: .\employees\forms.py:39
 msgid "Birth Date"
 msgstr ""
 
-#: .\employees\forms.py:55
+#: .\employees\forms.py:43
 msgid "Gender"
 msgstr ""
 
-#: .\employees\forms.py:59
-msgid "Country Of Origin"
-msgstr ""
-
-#: .\employees\forms.py:62 .\templates\employees\employees.html:24
+#: .\employees\forms.py:47 .\templates\employees\employees.html:21
 #: .\templates\partials\employees\_employee_details_collapse.html:29
+#: .\templates\partials\employers\base\_matched_employees.html:10
 #, fuzzy
 #| msgid "Avaibalility"
 msgid "Availability"
 msgstr "Verfügbarkeit"
 
-#: .\employees\forms.py:78
+#: .\employees\forms.py:64
 #, fuzzy
 #| msgid "Documents"
 msgid "Document Type"
 msgstr "Dokumente"
 
-#: .\employees\forms.py:82
+#: .\employees\forms.py:68
 #, fuzzy
 #| msgid "Documents"
 msgid "Document Series"
 msgstr "Dokumente"
 
-#: .\employees\forms.py:85
+#: .\employees\forms.py:71
 #, fuzzy
 #| msgid "Documents"
 msgid "Document Number"
 msgstr "Dokumente"
 
-#: .\employees\forms.py:88
+#: .\employees\forms.py:74
 msgid "Date Of Issue"
 msgstr ""
 
-#: .\employees\forms.py:91 .\employers\forms.py:135
-#: .\templates\partials\employers\contracts\_employer_contracts.html:8
+#: .\employees\forms.py:77 .\employers\forms.py:143
+#: .\templates\employers\contracts_list.html:20
+#: .\templates\partials\employers\contracts\_employer_contracts.html:9
 msgid "Expiration Date"
 msgstr ""
 
-#: .\employees\forms.py:94
+#: .\employees\forms.py:80
 msgid "Authority Issued"
 msgstr ""
 
-#: .\employees\forms.py:97
+#: .\employees\forms.py:83
 msgid "Note"
 msgstr ""
 
-#: .\employees\forms.py:106
+#: .\employees\forms.py:92 .\templates\employers\employer_details.html:124
+#: .\templates\employers\job_listings.html:15
 #: .\templates\partials\documents\_documents_photo_collapse.html:18
 msgid "Description"
 msgstr "Beschreibung"
 
-#: .\employees\forms.py:122
+#: .\employees\forms.py:108
 #, fuzzy
 #| msgid "Education"
 msgid "Education Start"
 msgstr "Ausbildung"
 
-#: .\employees\forms.py:125
+#: .\employees\forms.py:111
 #, fuzzy
 #| msgid "Education"
 msgid "Education End"
 msgstr "Ausbildung"
 
-#: .\employees\forms.py:128
+#: .\employees\forms.py:114
 msgid "Institution"
 msgstr ""
 
-#: .\employees\forms.py:131 .\templates\employees\employees.html:23
+#: .\employees\forms.py:117
 #, fuzzy
 #| msgid "New Speciality"
 msgid "Speciality"
 msgstr "Neue Spezialisierung"
 
-#: .\employees\forms.py:135
+#: .\employees\forms.py:121
 #, fuzzy
 #| msgid "Education"
 msgid "Education Level"
 msgstr "Ausbildung"
 
-#: .\employees\forms.py:153
+#: .\employees\forms.py:140
 msgid "Company"
 msgstr ""
 
-#: .\employees\forms.py:156 .\employers\forms.py:76
-#: .\templates\partials\employers\job_listings\_search_bar.html:21
+#: .\employees\forms.py:143 .\employers\forms.py:80
+#: .\templates\employers\employer_details.html:123
+#: .\templates\employers\job_listings.html:14
 msgid "Job Title"
 msgstr "Stellenbezeichnung"
 
-#: .\employees\forms.py:159
+#: .\employees\forms.py:146
 msgid "Start Working"
 msgstr ""
 
-#: .\employees\forms.py:162
+#: .\employees\forms.py:149
 msgid "Finish Working"
 msgstr ""
 
-#: .\employees\forms.py:165
+#: .\employees\forms.py:152
 msgid "Duties"
 msgstr ""
 
-#: .\employees\forms.py:168
+#: .\employees\forms.py:155
 #, fuzzy
 #| msgid "Business Areas"
 msgid "Business Area"
 msgstr "Fachgebiet"
+
+#: .\employees\forms.py:159
+#, fuzzy
+#| msgid "Employers"
+msgid "Employer's Feedback"
+msgstr "Arbeitgeber"
 
 #: .\employers\forms.py:23
 #, fuzzy
@@ -164,7 +290,8 @@ msgstr ""
 msgid "Email"
 msgstr "E-Mail"
 
-#: .\employers\forms.py:39 .\templates\partials\_navbar.html:15
+#: .\employers\forms.py:39 .\templates\employees\employees.html:5
+#: .\templates\partials\_navbar.html:18
 msgid "Employees"
 msgstr "Bewerber"
 
@@ -180,51 +307,54 @@ msgstr ""
 msgid "www"
 msgstr ""
 
-#: .\employers\forms.py:82
+#: .\employers\forms.py:86 .\templates\employers\employer_details.html:126
+#: .\templates\employers\job_listings.html:17
 #, fuzzy
 #| msgid "Contact Type"
 msgid "Contract Type"
 msgstr "Vertragstyp"
 
-#: .\employers\forms.py:87
+#: .\employers\forms.py:91
 msgid "Work Type"
 msgstr ""
 
-#: .\employers\forms.py:92
+#: .\employers\forms.py:96
 msgid "Offers"
 msgstr ""
 
-#: .\employers\forms.py:98 .\employers\forms.py:124
-#: .\templates\employers\job_details.html:11
+#: .\employers\forms.py:102 .\employers\forms.py:132
+#: .\templates\employers\contracts_list.html:17
+#: .\templates\employers\employer_details.html:4
+#: .\templates\partials\employers\contracts\_search_bar.html:15
 msgid "Employer"
 msgstr "Arbeitgeber"
 
-#: .\employers\forms.py:103
+#: .\employers\forms.py:107 .\templates\employers\employer_details.html:125
+#: .\templates\employers\job_listings.html:16
 #, fuzzy
 #| msgid "Education"
 msgid "Location"
 msgstr "Ausbildung"
 
-#: .\employers\forms.py:108
+#: .\employers\forms.py:112
 #, fuzzy
 #| msgid "Job Title"
 msgid "Job Url"
 msgstr "Stellenbezeichnung"
 
-#: .\employers\forms.py:131
-#: .\templates\partials\employers\contracts\_employer_contracts.html:7
+#: .\employers\forms.py:139 .\templates\employers\contracts_list.html:19
+#: .\templates\partials\employers\contracts\_employer_contracts.html:8
 msgid "Signing Date"
 msgstr ""
 
-#: .\employers\forms.py:139
-#: .\templates\partials\employers\contracts\_employer_contracts.html:23
+#: .\employers\forms.py:147
 #, fuzzy
 #| msgid "Contact Value"
 msgid "Contract Details"
 msgstr "Werte"
 
 #: .\templates\accounts\log_in.html:11 .\templates\accounts\log_in.html:32
-#: .\templates\accounts\register.html:11 .\templates\partials\_navbar.html:43
+#: .\templates\partials\_navbar.html:63
 msgid "Login"
 msgstr "Anmelgung"
 
@@ -236,40 +366,42 @@ msgstr "Benutzername"
 msgid "Password"
 msgstr "Passwort"
 
+#: .\templates\accounts\register.html:11 .\templates\accounts\register.html:56
+#: .\templates\partials\_navbar.html:60
+msgid "Register"
+msgstr "Anmelden"
+
 #: .\templates\accounts\register.html:53
 msgid "Confirm Password"
 msgstr "Passwort bestätigen"
 
-#: .\templates\accounts\register.html:56 .\templates\partials\_navbar.html:40
-msgid "Register"
-msgstr "Anmelden"
-
-#: .\templates\employee_base.html:49
+#: .\templates\employee_base.html:56 .\templates\employees\employee.html:4
 msgid "Personal Info"
 msgstr ""
 
-#: .\templates\employee_base.html:65
+#: .\templates\employee_base.html:72 .\templates\employees\documents.html:4
 msgid "Documents"
 msgstr "Dokumente"
 
-#: .\templates\employee_base.html:79
+#: .\templates\employee_base.html:86 .\templates\employees\contacts.html:4
 #: .\templates\partials\contacts\_contacts_collapse.html:7
 msgid "Contacts"
 msgstr "Kontakte"
 
-#: .\templates\employee_base.html:93
+#: .\templates\employee_base.html:100 .\templates\employees\education.html:4
 msgid "Education"
 msgstr "Ausbildung"
 
-#: .\templates\employee_base.html:107
+#: .\templates\employee_base.html:114
 msgid "Working Experience"
 msgstr "Berufserfahrung"
 
-#: .\templates\employee_base.html:121 .\templates\employees\expectations.html:9
+#: .\templates\employee_base.html:128 .\templates\employees\expectations.html:4
+#: .\templates\employees\expectations.html:9
 msgid "Expectations"
 msgstr "Erwartungen"
 
-#: .\templates\employee_base.html:135
+#: .\templates\employee_base.html:142 .\templates\employees\job_matches.html:4
 msgid "Job Matches"
 msgstr "Jobanpassungen"
 
@@ -287,64 +419,92 @@ msgstr "Vertragstyp"
 msgid "Contact Value"
 msgstr "Werte"
 
-#: .\templates\employees\documents.html:41
+#: .\templates\employees\documents.html:42
 #: .\templates\employees\education.html:41
-#: .\templates\employees\employee.html:79
-#: .\templates\employees\expectations.html:63
-#: .\templates\employees\experience.html:38
-#: .\templates\employers\contract_details.html:17
-#: .\templates\employers\employer_details.html:34
-#: .\templates\employers\job_details.html:39
+#: .\templates\employees\employee.html:154
+#: .\templates\employees\expectations.html:87
+#: .\templates\employees\experience.html:72
+#: .\templates\employers\contract_details.html:19
+#: .\templates\employers\employer_details.html:111
+#: .\templates\employers\job_details.html:81
 #: .\templates\partials\contacts\_create_contact.html:30
 #: .\templates\partials\contacts\_modify_contact.html:44
 #: .\templates\partials\documents\_add_document.html:21
 #: .\templates\partials\documents\_add_document_photo.html:21
 #: .\templates\partials\education\_add_education.html:21
-#: .\templates\partials\employees\_create_employee.html:19
-#: .\templates\partials\experience\_add_experience.html:21
+#: .\templates\partials\experience\_add_experience.html:55
 #: .\templates\partials\specialities\_create_speciality.html:21
 msgid "Save Changes"
 msgstr "Speichern"
 
-#: .\templates\employees\employees.html:21
+#: .\templates\employees\employees.html:18
+#: .\templates\partials\employers\base\_matched_employees.html:8
 #, fuzzy
 #| msgid "Employees"
 msgid "Employee Photo"
 msgstr "Bewerber"
 
-#: .\templates\employees\employees.html:22
+#: .\templates\employees\employees.html:19
+#: .\templates\partials\employers\base\_matched_employees.html:9
 #, fuzzy
 #| msgid "Employees"
 msgid "Employee Name"
 msgstr "Bewerber"
 
-#: .\templates\employees\employees.html:26
-#: .\templates\partials\employers\contracts\_employer_contracts.html:10
-#, fuzzy
-#| msgid "Show more"
-msgid "Show More..."
-msgstr "Erweitern"
-
-#: .\templates\employees\employees.html:41
-#: .\templates\partials\employees\_employee_details_collapse.html:32
-msgid "Show more"
-msgstr "Erweitern"
-
-#: .\templates\employees\expectations.html:16
-msgid "Business Areas"
-msgstr "Fachgebiet"
-
-#: .\templates\employees\expectations.html:29
+#: .\templates\employees\employees.html:20
+#: .\templates\employees\expectations.html:35
 msgid "Specialities"
 msgstr "Spezialisierungen"
 
-#: .\templates\employees\expectations.html:43
+#: .\templates\employees\employees.html:22
+#: .\templates\employees\job_matches.html:26
+msgid "Jobs Matched"
+msgstr "Jobs angepasst"
+
+#: .\templates\employees\employees.html:23
+#: .\templates\employers\employer_details.html:64
+#: .\templates\employers\employers.html:15
+msgid "Labels"
+msgstr ""
+
+#: .\templates\employees\employees.html:72
+#, fuzzy
+#| msgid "Create"
+msgid "Create One"
+msgstr "Anlegen"
+
+#: .\templates\employees\expectations.html:18
+#: .\templates\employers\employer_details.html:81
+#: .\templates\employers\employers.html:14
+msgid "Business Areas"
+msgstr "Fachgebiet"
+
+#: .\templates\employees\expectations.html:53
 msgid "Countries"
 msgstr "Länder"
 
-#: .\templates\employees\expectations.html:60
+#: .\templates\employees\expectations.html:70
 msgid "Min Salary"
 msgstr "Mindestlohn"
+
+#: .\templates\employees\experience.html:4
+#, fuzzy
+#| msgid "New Experience"
+msgid "Experience"
+msgstr "Neue Berufserfahrung"
+
+#: .\templates\employees\experience.html:49
+#: .\templates\employers\contract_details.html:4
+#: .\templates\partials\experience\_add_experience.html:31
+#, fuzzy
+#| msgid "Contacts"
+msgid "Contract"
+msgstr "Kontakte"
+
+#: .\templates\employees\experience.html:66
+#: .\templates\partials\experience\_add_experience.html:48
+msgid "from"
+msgstr ""
 
 #: .\templates\employees\job_matches.html:10
 #, fuzzy
@@ -352,76 +512,96 @@ msgstr "Mindestlohn"
 msgid "Employers in desired Business Areas"
 msgstr "Arbeitgeber in gewünschtem Fachgebiet"
 
-#: .\templates\employees\job_matches.html:32
-msgid "Jobs Matched"
-msgstr "Jobs angepasst"
-
-#: .\templates\employees\job_matches.html:40
-#: .\templates\employers\job_details.html:14
+#: .\templates\employees\job_matches.html:33
 msgid "Job"
 msgstr "Job"
 
-#: .\templates\employees\job_matches.html:41
+#: .\templates\employees\job_matches.html:34
 msgid "In Countries"
 msgstr "In Ländern"
 
-#: .\templates\employees\job_matches.html:42
+#: .\templates\employees\job_matches.html:35
 msgid "In Salary"
 msgstr "In Lohn"
 
-#: .\templates\employees\job_matches.html:43
+#: .\templates\employees\job_matches.html:36
 msgid "In Specialities"
 msgstr "In Spezialisierungen"
 
-#: .\templates\employees\job_matches.html:76
+#: .\templates\employees\job_matches.html:69
 msgid "No Matches so far"
 msgstr "Keine Anpassungen bis jetzt"
 
-#: .\templates\employers\contracts_list.html:22
-#: .\templates\employers\employers.html:25
-#: .\templates\employers\job_listings.html:24
-msgid "See more"
-msgstr "Erweitern"
-
-#: .\templates\employers\employer_details.html:37
-msgid "Jobs"
-msgstr "Jobs"
-
-#: .\templates\employers\employers.html:9
-msgid "Create Employer"
-msgstr "Arbeitgeber anlegen"
-
-#: .\templates\employers\index.html:9
-msgid "Get Jobs"
-msgstr "Jobs bekommen"
-
-#: .\templates\partials\_navbar.html:16
-msgid "Jobs Listings"
-msgstr "Jobliste"
-
-#: .\templates\partials\_navbar.html:17
-msgid "Employers"
-msgstr "Arbeitgeber"
-
-#: .\templates\partials\_navbar.html:18
+#: .\templates\employers\contracts_list.html:4
+#: .\templates\partials\_navbar.html:34
 #, fuzzy
 #| msgid "Contacts"
 msgid "Contracts"
 msgstr "Kontakte"
 
-#: .\templates\partials\_navbar.html:21
+#: .\templates\employers\contracts_list.html:18
+#: .\templates\partials\employers\contracts\_employer_contracts.html:7
+#: .\templates\partials\employers\contracts\_search_bar.html:31
+msgid "Contract Number"
+msgstr "Werte"
+
+#: .\templates\employers\employer_details.html:4
+#, fuzzy
+#| msgid "Contact Value"
+msgid "Details"
+msgstr "Werte"
+
+#: .\templates\employers\employer_details.html:127
+#: .\templates\employers\job_listings.html:18
+#, fuzzy
+#| msgid "Job Title"
+msgid "Job Type"
+msgstr "Stellenbezeichnung"
+
+#: .\templates\employers\employers.html:4 .\templates\partials\_navbar.html:29
+msgid "Employers"
+msgstr "Arbeitgeber"
+
+#: .\templates\employers\employers.html:12
+#: .\templates\partials\employers\employers\_search_bar.html:18
+#, fuzzy
+#| msgid "Employees"
+msgid "Employer Name"
+msgstr "Bewerber"
+
+#: .\templates\employers\employers.html:13
+#, fuzzy
+#| msgid "About Us"
+msgid "About"
+msgstr "Über uns"
+
+#: .\templates\employers\index.html:9
+msgid "Get Jobs"
+msgstr "Jobs bekommen"
+
+#: .\templates\employers\job_listings.html:4
+#, fuzzy
+#| msgid "Jobs Listings"
+msgid "Jobs List"
+msgstr "Jobliste"
+
+#: .\templates\partials\_navbar.html:24
+msgid "Jobs Listings"
+msgstr "Jobliste"
+
+#: .\templates\partials\_navbar.html:39
 msgid "How It Works"
 msgstr "Wie arbeitet das"
 
-#: .\templates\partials\_navbar.html:22
+#: .\templates\partials\_navbar.html:40
 msgid "About Us"
 msgstr "Über uns"
 
-#: .\templates\partials\_navbar.html:27
+#: .\templates\partials\_navbar.html:46
 msgid "Welcome"
 msgstr ""
 
-#: .\templates\partials\_navbar.html:32
+#: .\templates\partials\_navbar.html:52
 msgid "Logout"
 msgstr "Ausloggen"
 
@@ -451,8 +631,7 @@ msgstr "Neue Kontakt"
 #: .\templates\partials\contacts\_modify_contact.html:45
 #: .\templates\partials\documents\_add_document.html:22
 #: .\templates\partials\education\_add_education.html:22
-#: .\templates\partials\employees\_create_employee.html:20
-#: .\templates\partials\experience\_add_experience.html:22
+#: .\templates\partials\experience\_add_experience.html:56
 #: .\templates\partials\specialities\_create_speciality.html:22
 msgid "Close"
 msgstr "Schließen"
@@ -493,56 +672,60 @@ msgstr "Neue Ausbildung hinzufügen"
 msgid "New Education"
 msgstr "Ausbildung hinzufügen"
 
-#: .\templates\partials\employees\_create_employee.html:3
-#: .\templates\partials\employees\_create_employee.html:9
-msgid "Create Employee"
-msgstr "Bewerber erstellen"
-
 #: .\templates\partials\employees\_employee_details_collapse.html:28
 msgid "Address"
 msgstr "Adresse"
 
-#: .\templates\partials\employees\_search_bar.html:10
-msgid "Create"
+#: .\templates\partials\employees\_employee_details_collapse.html:32
+msgid "Show more"
+msgstr "Erweitern"
+
+#: .\templates\partials\employees\_search_bar.html:6
+#: .\templates\partials\employers\contracts\_search_bar.html:6
+#: .\templates\partials\employers\employers\_search_bar.html:8
+#: .\templates\partials\employers\job_listings\_search_bar.html:7
+msgid "Filter"
+msgstr ""
+
+#: .\templates\partials\employees\_search_bar.html:9
+#: .\templates\partials\employers\employers\_search_bar.html:10
+#: .\templates\partials\employers\job_listings\_search_bar.html:9
+#, fuzzy
+#| msgid "Create"
+msgid "Create New"
 msgstr "Anlegen"
 
-#: .\templates\partials\employers\base\_matched_employees.html:2
-msgid "Matched Employees"
-msgstr "Anpassende Bewerber"
-
-#: .\templates\partials\employers\contracts\_employer_contracts.html:6
-#, fuzzy
-#| msgid "Contact Value"
-msgid "Contract Number"
-msgstr "Werte"
-
-#: .\templates\partials\employers\contracts\_search_bar.html:10
-#, fuzzy
-#| msgid "Contacts"
-msgid "Add Contract"
-msgstr "Kontakte"
-
-#: .\templates\partials\employers\job_listings\_search_bar.html:13
-msgid "Keywords"
-msgstr "Schlüsselwörter"
-
-#: .\templates\partials\employers\job_listings\_search_bar.html:15
-#, fuzzy
-#| msgid "Keyword (Work From Home, Ingener, etc)"
-msgid "Keyword (Work From Home, Engineer, etc)"
-msgstr "Schlüsselwort (Heimarbeit, Inge )"
-
-#: .\templates\partials\employers\job_listings\_search_bar.html:25
+#: .\templates\partials\employees\_search_bar.html:100
+#: .\templates\partials\employers\contracts\_search_bar.html:67
+#: .\templates\partials\employers\employers\_search_bar.html:68
+#: .\templates\partials\employers\job_listings\_search_bar.html:106
 msgid "Search"
 msgstr "Suche"
 
-#: .\templates\partials\employers\job_listings\_search_bar.html:27
-msgid "Get More Jobs"
-msgstr "Mehr Jobs"
+#: .\templates\partials\employees\_search_bar.html:102
+#: .\templates\partials\employers\contracts\_search_bar.html:68
+#: .\templates\partials\employers\employers\_search_bar.html:69
+#: .\templates\partials\employers\job_listings\_search_bar.html:107
+msgid "Clear Filters"
+msgstr ""
 
-#: .\templates\partials\employers\job_listings\_search_bar.html:28
-msgid "Create Job"
-msgstr "Job anlegen`"
+#: .\templates\partials\employers\contracts\_search_bar.html:8
+#, fuzzy
+#| msgid "New Contact"
+msgid "New Contract"
+msgstr "Neue Kontakt"
+
+#: .\templates\partials\employers\employers\_search_bar.html:23
+#, fuzzy
+#| msgid "Description"
+msgid "Employer Description"
+msgstr "Beschreibung"
+
+#: .\templates\partials\employers\job_listings\_search_bar.html:22
+#, fuzzy
+#| msgid "Description"
+msgid "Job Description"
+msgstr "Beschreibung"
 
 #: .\templates\partials\experience\_add_experience.html:3
 msgid "Add New Experience"
@@ -564,105 +747,132 @@ msgstr "Spezialisierung anlegen"
 msgid "New Speciality"
 msgstr "Neue Spezialisierung"
 
+#: .\venv - Copy\Lib\site-packages\django-bs4\templates\bs4\pagination.html:6
 #: .\venv\Lib\site-packages\django-bs4\templates\bs4\pagination.html:6
 msgid "Previous"
 msgstr "Zurück"
 
+#: .\venv - Copy\Lib\site-packages\django-bs4\templates\bs4\pagination.html:26
 #: .\venv\Lib\site-packages\django-bs4\templates\bs4\pagination.html:26
 msgid "Next"
 msgstr "Weiter"
 
+#: .\venv - Copy\Lib\site-packages\django\contrib\messages\apps.py:7
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
 msgid "Messages"
 msgstr "Nachrichten"
 
+#: .\venv - Copy\Lib\site-packages\django\contrib\sitemaps\apps.py:7
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
 msgid "Site Maps"
 msgstr "Seitenübersicht"
 
+#: .\venv - Copy\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 #: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 msgid "Static Files"
 msgstr "Statische Felder"
 
+#: .\venv - Copy\Lib\site-packages\django\contrib\syndication\apps.py:7
 #: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
 msgid "Syndication"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\paginator.py:45
 #: .\venv\Lib\site-packages\django\core\paginator.py:45
 msgid "That page number is not an integer"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\paginator.py:47
 #: .\venv\Lib\site-packages\django\core\paginator.py:47
 msgid "That page number is less than 1"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\paginator.py:52
 #: .\venv\Lib\site-packages\django\core\paginator.py:52
 msgid "That page contains no results"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:32
 #: .\venv\Lib\site-packages\django\core\validators.py:32
 msgid "Enter a valid value."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:103
+#: Copy\Lib\site-packages\django\forms\fields.py:659
 #: .\venv\Lib\site-packages\django\core\validators.py:103
 #: .\venv\Lib\site-packages\django\forms\fields.py:659
 msgid "Enter a valid URL."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:155
 #: .\venv\Lib\site-packages\django\core\validators.py:155
 msgid "Enter a valid integer."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:166
 #: .\venv\Lib\site-packages\django\core\validators.py:166
 msgid "Enter a valid email address."
 msgstr ""
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:240
 #: .\venv\Lib\site-packages\django\core\validators.py:240
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:247
 #: .\venv\Lib\site-packages\django\core\validators.py:247
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:256
+#: Copy\Lib\site-packages\django\core\validators.py:276
 #: .\venv\Lib\site-packages\django\core\validators.py:256
 #: .\venv\Lib\site-packages\django\core\validators.py:276
 msgid "Enter a valid IPv4 address."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:261
+#: Copy\Lib\site-packages\django\core\validators.py:277
 #: .\venv\Lib\site-packages\django\core\validators.py:261
 #: .\venv\Lib\site-packages\django\core\validators.py:277
 msgid "Enter a valid IPv6 address."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:271
+#: Copy\Lib\site-packages\django\core\validators.py:275
 #: .\venv\Lib\site-packages\django\core\validators.py:271
 #: .\venv\Lib\site-packages\django\core\validators.py:275
 msgid "Enter a valid IPv4 or IPv6 address."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:305
 #: .\venv\Lib\site-packages\django\core\validators.py:305
 msgid "Enter only digits separated by commas."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:311
 #: .\venv\Lib\site-packages\django\core\validators.py:311
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:343
 #: .\venv\Lib\site-packages\django\core\validators.py:343
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:352
 #: .\venv\Lib\site-packages\django\core\validators.py:352
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:362
 #: .\venv\Lib\site-packages\django\core\validators.py:362
 #, python-format
 msgid ""
@@ -674,6 +884,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:377
 #: .\venv\Lib\site-packages\django\core\validators.py:377
 #, python-format
 msgid ""
@@ -685,12 +896,16 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:396
+#: Copy\Lib\site-packages\django\forms\fields.py:291
+#: Copy\Lib\site-packages\django\forms\fields.py:326
 #: .\venv\Lib\site-packages\django\core\validators.py:396
 #: .\venv\Lib\site-packages\django\forms\fields.py:291
 #: .\venv\Lib\site-packages\django\forms\fields.py:326
 msgid "Enter a number."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:398
 #: .\venv\Lib\site-packages\django\core\validators.py:398
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
@@ -698,6 +913,7 @@ msgid_plural "Ensure that there are no more than %(max)s digits in total."
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:403
 #: .\venv\Lib\site-packages\django\core\validators.py:403
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
@@ -705,6 +921,7 @@ msgid_plural "Ensure that there are no more than %(max)s decimal places."
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:408
 #: .\venv\Lib\site-packages\django\core\validators.py:408
 #, python-format
 msgid ""
@@ -714,6 +931,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:470
 #: .\venv\Lib\site-packages\django\core\validators.py:470
 #, python-format
 msgid ""
@@ -721,33 +939,41 @@ msgid ""
 "%(allowed_extensions)s."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\core\validators.py:522
 #: .\venv\Lib\site-packages\django\core\validators.py:522
 msgid "Null characters are not allowed."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\base.py:1181
+#: Copy\Lib\site-packages\django\forms\models.py:759
 #: .\venv\Lib\site-packages\django\db\models\base.py:1181
 #: .\venv\Lib\site-packages\django\forms\models.py:759
 msgid "and"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\base.py:1183
 #: .\venv\Lib\site-packages\django\db\models\base.py:1183
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:104
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:104
 #, python-format
 msgid "Value %(value)r is not a valid choice."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:105
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:105
 msgid "This field cannot be null."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:106
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:106
 msgid "This field cannot be blank."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:107
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:107
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
@@ -755,285 +981,349 @@ msgstr ""
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:111
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:111
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:130
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:130
 #, python-format
 msgid "Field of type: %(field_type)s"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:933
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:933
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:937
 #, python-format
 msgid "“%(value)s” value must be either True or False."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:934
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:934
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:938
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:936
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:936
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:940
 msgid "Boolean (Either True or False)"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:977
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:977
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:981
 #, python-format
 msgid "String (up to %(max_length)s)"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1041
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1041
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1045
 msgid "Comma-separated integers"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1090
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1090
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1094
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1092
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1235
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1092
+#: Copy\Lib\site-packages\django\db\models\fields\__init__.py:1235
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1096
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1239
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1095
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1095
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1099
 msgid "Date (without time)"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1233
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1233
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1237
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1237
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1237
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1241
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1241
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1241
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1245
 msgid "Date (with time)"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1389
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1389
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1393
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1391
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1391
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1395
 msgid "Decimal number"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1530
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1530
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1534
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1533
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1533
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1537
 msgid "Duration"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1583
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1583
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1587
 msgid "Email address"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1606
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1606
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1610
 msgid "File path"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1672
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1672
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1676
 #, python-format
 msgid "“%(value)s” value must be a float."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1674
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1674
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1678
 msgid "Floating point number"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1712
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1712
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1716
 #, python-format
 msgid "“%(value)s” value must be an integer."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1714
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1714
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1718
 msgid "Integer"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1797
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1797
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1801
 msgid "Big (8 byte) integer"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1813
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1813
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1817
 msgid "IPv4 address"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1844
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1844
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1848
 msgid "IP address"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1924
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1925
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1924
+#: Copy\Lib\site-packages\django\db\models\fields\__init__.py:1925
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1928
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1929
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1927
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1927
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1931
 msgid "Boolean (Either True, False or None)"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1962
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1962
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1966
 msgid "Positive integer"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1975
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1975
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1979
 msgid "Positive small integer"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1989
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:1989
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1993
 #, python-format
 msgid "Slug (up to %(max_length)s)"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2021
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2021
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2025
 msgid "Small integer"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2028
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2028
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2032
 msgid "Text"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2056
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2056
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2060
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2058
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2058
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2062
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2061
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2061
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2065
 msgid "Time"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2187
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2187
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2191
 msgid "URL"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2209
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2209
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2213
 msgid "Raw binary data"
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2274
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2274
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2278
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
 msgstr ""
 
-#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2276
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\__init__.py:2276
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2280
 msgid "Universally unique identifier"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\files.py:221
 #: .\venv\Lib\site-packages\django\db\models\fields\files.py:221
 msgid "File"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\files.py:360
 #: .\venv\Lib\site-packages\django\db\models\fields\files.py:360
 msgid "Image"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\related.py:778
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:778
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\related.py:780
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:780
 msgid "Foreign Key (type determined by related field)"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\related.py:1012
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1012
 msgid "One-to-one relationship"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\related.py:1066
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1066
 #, python-format
 msgid "%(from)s-%(to)s relationship"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\related.py:1067
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1067
 #, python-format
 msgid "%(from)s-%(to)s relationships"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\db\models\fields\related.py:1109
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1109
 msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the label
+#: .\venv - Copy\Lib\site-packages\django\forms\boundfield.py:149
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:149
 msgid ":?.!"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:53
 #: .\venv\Lib\site-packages\django\forms\fields.py:53
 msgid "This field is required."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:246
 #: .\venv\Lib\site-packages\django\forms\fields.py:246
 msgid "Enter a whole number."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:397
+#: Copy\Lib\site-packages\django\forms\fields.py:1127
 #: .\venv\Lib\site-packages\django\forms\fields.py:397
 #: .\venv\Lib\site-packages\django\forms\fields.py:1127
 msgid "Enter a valid date."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:421
+#: Copy\Lib\site-packages\django\forms\fields.py:1128
 #: .\venv\Lib\site-packages\django\forms\fields.py:421
 #: .\venv\Lib\site-packages\django\forms\fields.py:1128
 msgid "Enter a valid time."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:443
 #: .\venv\Lib\site-packages\django\forms\fields.py:443
 msgid "Enter a valid date/time."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:472
 #: .\venv\Lib\site-packages\django\forms\fields.py:472
 msgid "Enter a valid duration."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:473
 #: .\venv\Lib\site-packages\django\forms\fields.py:473
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:533
 #: .\venv\Lib\site-packages\django\forms\fields.py:533
 msgid "No file was submitted. Check the encoding type on the form."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:534
 #: .\venv\Lib\site-packages\django\forms\fields.py:534
 msgid "No file was submitted."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:535
 #: .\venv\Lib\site-packages\django\forms\fields.py:535
 msgid "The submitted file is empty."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:537
 #: .\venv\Lib\site-packages\django\forms\fields.py:537
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
@@ -1042,16 +1332,21 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:540
 #: .\venv\Lib\site-packages\django\forms\fields.py:540
 msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:601
 #: .\venv\Lib\site-packages\django\forms\fields.py:601
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:763
+#: Copy\Lib\site-packages\django\forms\fields.py:853
+#: Copy\Lib\site-packages\django\forms\models.py:1275
 #: .\venv\Lib\site-packages\django\forms\fields.py:763
 #: .\venv\Lib\site-packages\django\forms\fields.py:853
 #: .\venv\Lib\site-packages\django\forms\models.py:1275
@@ -1059,34 +1354,43 @@ msgstr ""
 msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:854
+#: Copy\Lib\site-packages\django\forms\fields.py:969
+#: Copy\Lib\site-packages\django\forms\models.py:1274
 #: .\venv\Lib\site-packages\django\forms\fields.py:854
 #: .\venv\Lib\site-packages\django\forms\fields.py:969
 #: .\venv\Lib\site-packages\django\forms\models.py:1274
 msgid "Enter a list of values."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:970
 #: .\venv\Lib\site-packages\django\forms\fields.py:970
 msgid "Enter a complete value."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\fields.py:1186
 #: .\venv\Lib\site-packages\django\forms\fields.py:1186
 msgid "Enter a valid UUID."
 msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
+#: .\venv - Copy\Lib\site-packages\django\forms\forms.py:81
 #: .\venv\Lib\site-packages\django\forms\forms.py:81
 msgid ":"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\forms.py:207
 #: .\venv\Lib\site-packages\django\forms\forms.py:207
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\formsets.py:93
 #: .\venv\Lib\site-packages\django\forms\formsets.py:93
 msgid "ManagementForm data is missing or has been tampered with"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\formsets.py:345
 #: .\venv\Lib\site-packages\django\forms\formsets.py:345
 #, python-format
 msgid "Please submit %d or fewer forms."
@@ -1094,6 +1398,7 @@ msgid_plural "Please submit %d or fewer forms."
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\formsets.py:352
 #: .\venv\Lib\site-packages\django\forms\formsets.py:352
 #, python-format
 msgid "Please submit %d or more forms."
@@ -1101,25 +1406,31 @@ msgid_plural "Please submit %d or more forms."
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\formsets.py:379
+#: Copy\Lib\site-packages\django\forms\formsets.py:386
 #: .\venv\Lib\site-packages\django\forms\formsets.py:379
 #: .\venv\Lib\site-packages\django\forms\formsets.py:386
 msgid "Order"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\formsets.py:391
 #: .\venv\Lib\site-packages\django\forms\formsets.py:391
 msgid "Delete"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:754
 #: .\venv\Lib\site-packages\django\forms\models.py:754
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:758
 #: .\venv\Lib\site-packages\django\forms\models.py:758
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:764
 #: .\venv\Lib\site-packages\django\forms\models.py:764
 #, python-format
 msgid ""
@@ -1127,23 +1438,28 @@ msgid ""
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:773
 #: .\venv\Lib\site-packages\django\forms\models.py:773
 msgid "Please correct the duplicate values below."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:1094
 #: .\venv\Lib\site-packages\django\forms\models.py:1094
 msgid "The inline value did not match the parent instance."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:1161
 #: .\venv\Lib\site-packages\django\forms\models.py:1161
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\models.py:1277
 #: .\venv\Lib\site-packages\django\forms\models.py:1277
 #, python-format
 msgid "“%(pk)s” is not a valid value."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\utils.py:162
 #: .\venv\Lib\site-packages\django\forms\utils.py:162
 #, python-format
 msgid ""
@@ -1151,34 +1467,43 @@ msgid ""
 "may be ambiguous or it may not exist."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\widgets.py:395
 #: .\venv\Lib\site-packages\django\forms\widgets.py:395
 msgid "Clear"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\widgets.py:396
 #: .\venv\Lib\site-packages\django\forms\widgets.py:396
 msgid "Currently"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\widgets.py:397
 #: .\venv\Lib\site-packages\django\forms\widgets.py:397
 msgid "Change"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\widgets.py:709
 #: .\venv\Lib\site-packages\django\forms\widgets.py:709
 msgid "Unknown"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\widgets.py:710
 #: .\venv\Lib\site-packages\django\forms\widgets.py:710
 msgid "Yes"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\forms\widgets.py:711
 #: .\venv\Lib\site-packages\django\forms\widgets.py:711
 msgid "No"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:788
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:788
 msgid "yes,no,maybe"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:817
+#: Copy\Lib\site-packages\django\template\defaultfilters.py:834
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:817
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:834
 #, python-format
@@ -1187,347 +1512,426 @@ msgid_plural "%(size)d bytes"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:836
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:836
 #, python-format
 msgid "%s KB"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:838
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:838
 #, python-format
 msgid "%s MB"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:840
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:840
 #, python-format
 msgid "%s GB"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:842
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:842
 #, python-format
 msgid "%s TB"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\template\defaultfilters.py:844
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:844
 #, python-format
 msgid "%s PB"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dateformat.py:62
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:62
 msgid "p.m."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dateformat.py:63
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:63
 msgid "a.m."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dateformat.py:68
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:68
 msgid "PM"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dateformat.py:69
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:69
 msgid "AM"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dateformat.py:150
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:150
 msgid "midnight"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dateformat.py:152
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:152
 msgid "noon"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:6
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Monday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:6
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Tuesday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:6
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Wednesday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:6
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Thursday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:6
 #: .\venv\Lib\site-packages\django\utils\dates.py:6
 msgid "Friday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:7
 #: .\venv\Lib\site-packages\django\utils\dates.py:7
 msgid "Saturday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:7
 #: .\venv\Lib\site-packages\django\utils\dates.py:7
 msgid "Sunday"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:10
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Mon"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:10
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Tue"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:10
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Wed"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:10
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Thu"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:10
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Fri"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:11
 #: .\venv\Lib\site-packages\django\utils\dates.py:11
 msgid "Sat"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:11
 #: .\venv\Lib\site-packages\django\utils\dates.py:11
 msgid "Sun"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:14
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "January"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:14
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "February"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:14
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "March"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:14
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "April"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:14
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "May"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:14
 #: .\venv\Lib\site-packages\django\utils\dates.py:14
 msgid "June"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:15
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "July"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:15
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "August"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:15
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "September"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:15
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "October"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:15
 #: .\venv\Lib\site-packages\django\utils\dates.py:15
 msgid "November"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:16
 #: .\venv\Lib\site-packages\django\utils\dates.py:16
 msgid "December"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:19
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "jan"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:19
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "feb"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:19
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "mar"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:19
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "apr"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:19
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "may"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:19
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "jun"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:20
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "jul"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:20
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "aug"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:20
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "sep"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:20
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "oct"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:20
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "nov"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:20
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "dec"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:23
 #: .\venv\Lib\site-packages\django\utils\dates.py:23
 msgctxt "abbrev. month"
 msgid "Jan."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:24
 #: .\venv\Lib\site-packages\django\utils\dates.py:24
 msgctxt "abbrev. month"
 msgid "Feb."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:25
 #: .\venv\Lib\site-packages\django\utils\dates.py:25
 msgctxt "abbrev. month"
 msgid "March"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:26
 #: .\venv\Lib\site-packages\django\utils\dates.py:26
 msgctxt "abbrev. month"
 msgid "April"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:27
 #: .\venv\Lib\site-packages\django\utils\dates.py:27
 msgctxt "abbrev. month"
 msgid "May"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:28
 #: .\venv\Lib\site-packages\django\utils\dates.py:28
 msgctxt "abbrev. month"
 msgid "June"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:29
 #: .\venv\Lib\site-packages\django\utils\dates.py:29
 msgctxt "abbrev. month"
 msgid "July"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:30
 #: .\venv\Lib\site-packages\django\utils\dates.py:30
 msgctxt "abbrev. month"
 msgid "Aug."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:31
 #: .\venv\Lib\site-packages\django\utils\dates.py:31
 msgctxt "abbrev. month"
 msgid "Sept."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:32
 #: .\venv\Lib\site-packages\django\utils\dates.py:32
 msgctxt "abbrev. month"
 msgid "Oct."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:33
 #: .\venv\Lib\site-packages\django\utils\dates.py:33
 msgctxt "abbrev. month"
 msgid "Nov."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:34
 #: .\venv\Lib\site-packages\django\utils\dates.py:34
 msgctxt "abbrev. month"
 msgid "Dec."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:37
 #: .\venv\Lib\site-packages\django\utils\dates.py:37
 msgctxt "alt. month"
 msgid "January"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:38
 #: .\venv\Lib\site-packages\django\utils\dates.py:38
 msgctxt "alt. month"
 msgid "February"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:39
 #: .\venv\Lib\site-packages\django\utils\dates.py:39
 msgctxt "alt. month"
 msgid "March"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:40
 #: .\venv\Lib\site-packages\django\utils\dates.py:40
 msgctxt "alt. month"
 msgid "April"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:41
 #: .\venv\Lib\site-packages\django\utils\dates.py:41
 msgctxt "alt. month"
 msgid "May"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:42
 #: .\venv\Lib\site-packages\django\utils\dates.py:42
 msgctxt "alt. month"
 msgid "June"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:43
 #: .\venv\Lib\site-packages\django\utils\dates.py:43
 msgctxt "alt. month"
 msgid "July"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:44
 #: .\venv\Lib\site-packages\django\utils\dates.py:44
 msgctxt "alt. month"
 msgid "August"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:45
 #: .\venv\Lib\site-packages\django\utils\dates.py:45
 msgctxt "alt. month"
 msgid "September"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:46
 #: .\venv\Lib\site-packages\django\utils\dates.py:46
 msgctxt "alt. month"
 msgid "October"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:47
 #: .\venv\Lib\site-packages\django\utils\dates.py:47
 msgctxt "alt. month"
 msgid "November"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\dates.py:48
 #: .\venv\Lib\site-packages\django\utils\dates.py:48
 msgctxt "alt. month"
 msgid "December"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\ipv6.py:8
 #: .\venv\Lib\site-packages\django\utils\ipv6.py:8
 msgid "This is not a valid IPv6 address."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\text.py:69
 #: .\venv\Lib\site-packages\django\utils\text.py:69
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\text.py:235
 #: .\venv\Lib\site-packages\django\utils\text.py:235
 msgid "or"
 msgstr ""
 
 #. Translators: This string is used as a separator between list elements
+#: .\venv - Copy\Lib\site-packages\django\utils\text.py:254
+#: Copy\Lib\site-packages\django\utils\timesince.py:83
 #: .\venv\Lib\site-packages\django\utils\text.py:254
 #: .\venv\Lib\site-packages\django\utils\timesince.py:83
 msgid ", "
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:9
 #: .\venv\Lib\site-packages\django\utils\timesince.py:9
 #, python-format
 msgid "%d year"
@@ -1535,6 +1939,7 @@ msgid_plural "%d years"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:10
 #: .\venv\Lib\site-packages\django\utils\timesince.py:10
 #, python-format
 msgid "%d month"
@@ -1542,6 +1947,7 @@ msgid_plural "%d months"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:11
 #: .\venv\Lib\site-packages\django\utils\timesince.py:11
 #, python-format
 msgid "%d week"
@@ -1549,6 +1955,7 @@ msgid_plural "%d weeks"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:12
 #: .\venv\Lib\site-packages\django\utils\timesince.py:12
 #, python-format
 msgid "%d day"
@@ -1556,6 +1963,7 @@ msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:13
 #: .\venv\Lib\site-packages\django\utils\timesince.py:13
 #, python-format
 msgid "%d hour"
@@ -1563,6 +1971,7 @@ msgid_plural "%d hours"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:14
 #: .\venv\Lib\site-packages\django\utils\timesince.py:14
 #, python-format
 msgid "%d minute"
@@ -1570,18 +1979,22 @@ msgid_plural "%d minutes"
 msgstr[0] ""
 msgstr[1] ""
 
+#: .\venv - Copy\Lib\site-packages\django\utils\timesince.py:72
 #: .\venv\Lib\site-packages\django\utils\timesince.py:72
 msgid "0 minutes"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:110
 #: .\venv\Lib\site-packages\django\views\csrf.py:110
 msgid "Forbidden"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:111
 #: .\venv\Lib\site-packages\django\views\csrf.py:111
 msgid "CSRF verification failed. Request aborted."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:115
 #: .\venv\Lib\site-packages\django\views\csrf.py:115
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1590,6 +2003,7 @@ msgid ""
 "hijacked by third parties."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:120
 #: .\venv\Lib\site-packages\django\views\csrf.py:120
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
@@ -1597,6 +2011,7 @@ msgid ""
 "origin” requests."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:124
 #: .\venv\Lib\site-packages\django\views\csrf.py:124
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
@@ -1606,6 +2021,7 @@ msgid ""
 "\" …> for links to third-party sites."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:132
 #: .\venv\Lib\site-packages\django\views\csrf.py:132
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
@@ -1613,44 +2029,56 @@ msgid ""
 "that your browser is not being hijacked by third parties."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:137
 #: .\venv\Lib\site-packages\django\views\csrf.py:137
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\csrf.py:142
 #: .\venv\Lib\site-packages\django\views\csrf.py:142
 msgid "More information is available with DEBUG=True."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:41
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:41
 msgid "No year specified"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:61
+#: Copy\Lib\site-packages\django\views\generic\dates.py:111
+#: Copy\Lib\site-packages\django\views\generic\dates.py:208
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:61
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:111
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:208
 msgid "Date out of range"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:90
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:90
 msgid "No month specified"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:142
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:142
 msgid "No day specified"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:188
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:188
 msgid "No week specified"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:338
+#: Copy\Lib\site-packages\django\views\generic\dates.py:367
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:338
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:367
 #, python-format
 msgid "No %(verbose_name_plural)s available"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:589
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:589
 #, python-format
 msgid ""
@@ -1658,48 +2086,60 @@ msgid ""
 "allow_future is False."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\dates.py:623
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:623
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\detail.py:54
 #: .\venv\Lib\site-packages\django\views\generic\detail.py:54
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\list.py:67
 #: .\venv\Lib\site-packages\django\views\generic\list.py:67
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\list.py:72
 #: .\venv\Lib\site-packages\django\views\generic\list.py:72
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\generic\list.py:154
 #: .\venv\Lib\site-packages\django\views\generic\list.py:154
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\static.py:40
 #: .\venv\Lib\site-packages\django\views\static.py:40
 msgid "Directory indexes are not allowed here."
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\static.py:42
 #: .\venv\Lib\site-packages\django\views\static.py:42
 #, python-format
 msgid "“%(path)s” does not exist"
 msgstr ""
 
+#: .\venv - Copy\Lib\site-packages\django\views\static.py:80
 #: .\venv\Lib\site-packages\django\views\static.py:80
 #, python-format
 msgid "Index of %(directory)s"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:7
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
 msgid "Django: the Web framework for perfectionists with deadlines."
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:346
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:346
 #, python-format
 msgid ""
@@ -1707,10 +2147,14 @@ msgid ""
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:368
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:368
 msgid "The install worked successfully! Congratulations!"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:369
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:369
 #, python-format
 msgid ""
@@ -1720,26 +2164,76 @@ msgid ""
 "URLs."
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:384
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:384
 msgid "Django Documentation"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:385
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:385
 msgid "Topics, references, &amp; how-to’s"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:396
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:396
 msgid "Tutorial: A Polling App"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:397
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:397
 msgid "Get started with Django"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:408
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:408
 msgid "Django Community"
 msgstr ""
 
+#: .\venv -
+#: Copy\Lib\site-packages\django\views\templates\default_urlconf.html:409
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:409
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Show more"
+#~ msgid "Show More..."
+#~ msgstr "Erweitern"
+
+#~ msgid "See more"
+#~ msgstr "Erweitern"
+
+#~ msgid "Jobs"
+#~ msgstr "Jobs"
+
+#~ msgid "Create Employer"
+#~ msgstr "Arbeitgeber anlegen"
+
+#~ msgid "Create Employee"
+#~ msgstr "Bewerber erstellen"
+
+#~ msgid "Matched Employees"
+#~ msgstr "Anpassende Bewerber"
+
+#~| msgid "Contacts"
+#~ msgid "Add Contract"
+#~ msgstr "Kontakte"
+
+#~ msgid "Keywords"
+#~ msgstr "Schlüsselwörter"
+
+#, fuzzy
+#~| msgid "Keyword (Work From Home, Ingener, etc)"
+#~ msgid "Keyword (Work From Home, Engineer, etc)"
+#~ msgstr "Schlüsselwort (Heimarbeit, Inge )"
+
+#~ msgid "Get More Jobs"
+#~ msgstr "Mehr Jobs"
+
+#~ msgid "Create Job"
+#~ msgstr "Job anlegen`"

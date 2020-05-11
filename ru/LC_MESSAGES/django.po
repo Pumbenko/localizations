@@ -29,98 +29,91 @@ msgid "homephone"
 msgstr ""
 
 #: .\back_end\choices.py:8
-#, fuzzy
-#| msgid "Email"
 msgid "email"
 msgstr "Электронная почта"
 
 #: .\back_end\choices.py:12
 msgid "passport"
-msgstr ""
+msgstr "пасспорт"
 
 #: .\back_end\choices.py:13
 msgid "dyploma"
-msgstr ""
+msgstr "диплом"
 
 #: .\back_end\choices.py:14
 msgid "other"
-msgstr ""
+msgstr "другое"
 
 #: .\back_end\choices.py:15
 msgid "residence permit"
-msgstr ""
+msgstr "разрешение на проживание"
 
 #: .\back_end\choices.py:19
 msgid "male"
-msgstr ""
+msgstr "мужчина"
 
 #: .\back_end\choices.py:20
 msgid "female"
-msgstr ""
+msgstr "женщина"
 
 #: .\back_end\choices.py:24
-#, fuzzy
-#| msgid "Personal Info"
 msgid "No Info"
-msgstr "Персональная информация"
+msgstr "Нет информации"
 
 #: .\back_end\choices.py:25
-#, fuzzy
-#| msgid "Avaibalility"
+
 msgid "Available"
-msgstr "Доступность"
+msgstr "Доступнен"
 
 #: .\back_end\choices.py:26
-#, fuzzy
-#| msgid "Avaibalility"
-msgid "Unavailable"
+
+msgid "Недоступен"
 msgstr "Доступность"
 
 #: .\back_end\choices.py:27
-#, fuzzy
-#| msgid "Avaibalility"
+
 msgid "Available Soon"
-msgstr "Доступность"
+msgstr "Скоро доступен"
 
 #: .\back_end\choices.py:32
 msgid "Ukraine"
-msgstr ""
+msgstr "Украина"
 
 #: .\back_end\choices.py:33
 msgid "Russia"
-msgstr ""
+msgstr "Россия"
 
 #: .\back_end\choices.py:34
 msgid "Bielorus"
-msgstr ""
+msgstr "Беларусь"
 
 #: .\back_end\choices.py:38
 msgid "basic"
-msgstr ""
+msgstr "базовая"
 
 #: .\back_end\choices.py:39
 msgid "middle"
-msgstr ""
+msgstr "средняя"
 
 #: .\back_end\choices.py:40
 msgid "high"
-msgstr ""
+msgstr "высшая"
 
 #: .\back_end\choices.py:41
 msgid "science degree"
-msgstr ""
+msgstr "научная степень"
 
 #: .\back_end\choices.py:45
 msgid "Permanent labour contract"
-msgstr ""
+msgstr "Постоянный трудовой договор"
 
 #: .\back_end\choices.py:46
 msgid "Fixed-term labour contract"
-msgstr ""
+msgstr "Срочный трудовой договор"
 
 #: .\back_end\choices.py:47
 msgid "Contract with a recruitment agency"
-msgstr ""
+msgstr "Контракт с агентством труда"
 
 #: .\back_end\choices.py:48
 msgid "Mini job contract"
@@ -169,8 +162,7 @@ msgstr "Пол"
 #: .\employees\forms.py:47 .\templates\employees\employees.html:21
 #: .\templates\partials\employees\_employee_details_collapse.html:29
 #: .\templates\partials\employers\base\_matched_employees.html:10
-#, fuzzy
-#| msgid "Avaibalility"
+
 msgid "Availability"
 msgstr "Доступность"
 
@@ -443,11 +435,10 @@ msgstr "Найденные вакансии"
 #: .\templates\employers\employer_details.html:64
 #: .\templates\employers\employers.html:15
 msgid "Labels"
-msgstr ""
+msgstr "Ярлыки"
 
 #: .\templates\employees\employees.html:72
-#, fuzzy
-#| msgid "Create"
+
 msgid "Create One"
 msgstr "Создать"
 

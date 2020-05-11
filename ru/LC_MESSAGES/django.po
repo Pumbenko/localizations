@@ -407,17 +407,15 @@ msgstr "Сохранить"
 
 #: .\templates\employees\employees.html:18
 #: .\templates\partials\employers\base\_matched_employees.html:8
-#, fuzzy
-#| msgid "Employees"
+
 msgid "Employee Photo"
-msgstr "Соискатели"
+msgstr "Фото соискателя"
 
 #: .\templates\employees\employees.html:19
 #: .\templates\partials\employers\base\_matched_employees.html:9
-#, fuzzy
-#| msgid "Employees"
+
 msgid "Employee Name"
-msgstr "Соискатели"
+msgstr "Имя соискателя"
 
 #: .\templates\employees\employees.html:20
 #: .\templates\employees\expectations.html:35

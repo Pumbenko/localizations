@@ -305,7 +305,7 @@ msgstr "Работодатель"
 #: .\employers\forms.py:107 .\templates\employers\employer_details.html:125
 #: .\templates\employers\job_listings.html:16
 msgid "Location"
-msgstr "Образование"
+msgstr "Месторасположение"
 
 #: .\employers\forms.py:112
 msgid "Job Url"

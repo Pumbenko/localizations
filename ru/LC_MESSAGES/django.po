@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST  AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:08+0200\n"
+"POT-Creation-Date: 2020-05-12 19:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,17 +61,16 @@ msgid "No Info"
 msgstr "Нет информации"
 
 #: .\back_end\choices.py:25
-
 msgid "Available"
 msgstr "Доступнен"
 
 #: .\back_end\choices.py:26
-
-msgid "Недоступен"
-msgstr "Доступность"
+#, fuzzy
+#| msgid "Available"
+msgid "Unavailable"
+msgstr "Доступнен"
 
 #: .\back_end\choices.py:27
-
 msgid "Available Soon"
 msgstr "Скоро доступен"
 
@@ -161,8 +160,8 @@ msgstr "Пол"
 
 #: .\employees\forms.py:47 .\templates\employees\employees.html:21
 #: .\templates\partials\employees\_employee_details_collapse.html:29
+#: .\templates\partials\employees\_search_bar.html:60
 #: .\templates\partials\employers\base\_matched_employees.html:10
-
 msgid "Availability"
 msgstr "Доступность"
 
@@ -182,7 +181,7 @@ msgstr "Номер документа"
 msgid "Date Of Issue"
 msgstr "Дата выдачи"
 
-#: .\employees\forms.py:77 .\employers\forms.py:143
+#: .\employees\forms.py:77 .\employers\forms.py:145
 #: .\templates\employers\contracts_list.html:20
 #: .\templates\partials\employers\contracts\_employer_contracts.html:9
 msgid "Expiration Date"
@@ -229,6 +228,7 @@ msgstr "Компания"
 #: .\employees\forms.py:143 .\employers\forms.py:80
 #: .\templates\employers\employer_details.html:123
 #: .\templates\employers\job_listings.html:14
+#: .\templates\partials\employers\job_listings\_search_bar.html:16
 msgid "Job Title"
 msgstr "Название вакансии"
 
@@ -249,7 +249,6 @@ msgid "Business Area"
 msgstr "Сфера деятельности"
 
 #: .\employees\forms.py:159
-
 msgid "Employer's Feedback"
 msgstr "Отзыв работодателя"
 
@@ -295,29 +294,34 @@ msgstr "Тип работы"
 msgid "Offers"
 msgstr "Предложения"
 
-#: .\employers\forms.py:102 .\employers\forms.py:132
+#: .\employers\forms.py:100
+#, fuzzy
+#| msgid "In Salary"
+msgid "Salary"
+msgstr "По зарплате"
+
+#: .\employers\forms.py:104 .\employers\forms.py:134
 #: .\templates\employers\contracts_list.html:17
 #: .\templates\employers\employer_details.html:4
 #: .\templates\partials\employers\contracts\_search_bar.html:15
 msgid "Employer"
 msgstr "Работодатель"
 
-#: .\employers\forms.py:107 .\templates\employers\employer_details.html:125
+#: .\employers\forms.py:109 .\templates\employers\employer_details.html:125
 #: .\templates\employers\job_listings.html:16
 msgid "Location"
 msgstr "Месторасположение"
 
-#: .\employers\forms.py:112
+#: .\employers\forms.py:114
 msgid "Job Url"
 msgstr "Название вакансии"
 
-#: .\employers\forms.py:139 .\templates\employers\contracts_list.html:19
+#: .\employers\forms.py:141 .\templates\employers\contracts_list.html:19
 #: .\templates\partials\employers\contracts\_employer_contracts.html:8
 msgid "Signing Date"
 msgstr "Дата подписания"
 
-#: .\employers\forms.py:147
-
+#: .\employers\forms.py:149
 msgid "Contract Details"
 msgstr "Детали контракта"
 
@@ -405,42 +409,52 @@ msgstr "Значение"
 msgid "Save Changes"
 msgstr "Сохранить"
 
+#: .\templates\employees\employee.html:27
+#: .\templates\employees\employees.html:23
+#: .\templates\employers\employer_details.html:64
+#: .\templates\employers\employers.html:15
+#: .\templates\partials\employees\_search_bar.html:79
+#: .\templates\partials\employers\employers\_search_bar.html:31
+msgid "Labels"
+msgstr "Ярлыки"
+
+#: .\templates\employees\employee.html:45
+#: .\templates\employees\employees.html:20
+#: .\templates\employees\expectations.html:35
+#: .\templates\partials\employees\_search_bar.html:43
+#: .\templates\partials\employers\job_listings\_search_bar.html:84
+msgid "Specialities"
+msgstr "Специальности"
+
+#: .\templates\employees\employee.html:104
+#: .\templates\partials\employees\_search_bar.html:22
+msgid "Country Of Origin"
+msgstr "Страна происхождения"
+
 #: .\templates\employees\employees.html:18
 #: .\templates\partials\employers\base\_matched_employees.html:8
-
 msgid "Employee Photo"
 msgstr "Фото соискателя"
 
 #: .\templates\employees\employees.html:19
+#: .\templates\partials\employees\_search_bar.html:16
 #: .\templates\partials\employers\base\_matched_employees.html:9
-
 msgid "Employee Name"
 msgstr "Имя соискателя"
-
-#: .\templates\employees\employees.html:20
-#: .\templates\employees\expectations.html:35
-msgid "Specialities"
-msgstr "Специальности"
 
 #: .\templates\employees\employees.html:22
 #: .\templates\employees\job_matches.html:26
 msgid "Jobs Matched"
 msgstr "Найденные вакансии"
 
-#: .\templates\employees\employees.html:23
-#: .\templates\employers\employer_details.html:64
-#: .\templates\employers\employers.html:15
-msgid "Labels"
-msgstr "Ярлыки"
-
 #: .\templates\employees\employees.html:72
-
 msgid "Create One"
 msgstr "Создать"
 
 #: .\templates\employees\expectations.html:18
 #: .\templates\employers\employer_details.html:81
 #: .\templates\employers\employers.html:14
+#: .\templates\partials\employers\employers\_search_bar.html:48
 msgid "Business Areas"
 msgstr "Сфера деятельности"
 
@@ -453,14 +467,12 @@ msgid "Min Salary"
 msgstr "Мин зарплата"
 
 #: .\templates\employees\experience.html:4
-
 msgid "Experience"
 msgstr "Опыт работы"
 
 #: .\templates\employees\experience.html:49
 #: .\templates\employers\contract_details.html:4
 #: .\templates\partials\experience\_add_experience.html:31
-
 msgid "Contract"
 msgstr "Контракт"
 
@@ -470,7 +482,6 @@ msgid "from"
 msgstr "от"
 
 #: .\templates\employees\job_matches.html:10
-
 msgid "Employers in desired Business Areas"
 msgstr "Работодатели в желаемых сферах занятости"
 
@@ -495,26 +506,34 @@ msgid "No Matches so far"
 msgstr "Нет подходящих вакансий"
 
 #: .\templates\employers\contracts_list.html:4
+#: .\templates\employers\employer_details.html:45
 #: .\templates\partials\_navbar.html:34
-
 msgid "Contracts"
 msgstr "Контракты"
 
 #: .\templates\employers\contracts_list.html:18
 #: .\templates\partials\employers\contracts\_employer_contracts.html:7
 #: .\templates\partials\employers\contracts\_search_bar.html:31
-
 msgid "Contract Number"
 msgstr "Номер контакта"
 
 #: .\templates\employers\employer_details.html:4
-
+#: .\templates\employers\employer_details.html:35
 msgid "Details"
 msgstr "Детали"
 
+#: .\templates\employers\employer_details.html:40
+msgid "Jobs"
+msgstr "Вакансии"
+
+#: .\templates\employers\employer_details.html:50
+#: .\templates\employers\job_details.html:33
+msgid "Matched Employees"
+msgstr "Подходящие соискатели"
+
 #: .\templates\employers\employer_details.html:127
 #: .\templates\employers\job_listings.html:18
-
+#: .\templates\partials\employers\job_listings\_search_bar.html:67
 msgid "Job Type"
 msgstr "Название вакансии"
 
@@ -524,12 +543,10 @@ msgstr "Работодатели"
 
 #: .\templates\employers\employers.html:12
 #: .\templates\partials\employers\employers\_search_bar.html:18
-
 msgid "Employer Name"
 msgstr "Имя работодателя"
 
 #: .\templates\employers\employers.html:13
-
 msgid "About"
 msgstr "Про нас"
 
@@ -537,8 +554,19 @@ msgstr "Про нас"
 msgid "Get Jobs"
 msgstr "Найти вакансии"
 
-#: .\templates\employers\job_listings.html:4
+#: .\templates\employers\job_details.html:27
+#, fuzzy
+#| msgid "Details"
+msgid "Job Details"
+msgstr "Детали"
 
+#: .\templates\employers\job_details.html:52
+#, fuzzy
+#| msgid "Specialities"
+msgid "Required Specialities"
+msgstr "Специальности"
+
+#: .\templates\employers\job_listings.html:4
 msgid "Jobs List"
 msgstr "Все вакансии"
 
@@ -606,7 +634,6 @@ msgid "Add Document Photo"
 msgstr "Добавить скан/фото документа"
 
 #: .\templates\partials\documents\_add_document_photo.html:9
-
 msgid "New Document Photo"
 msgstr "Фото нового документа"
 
@@ -631,7 +658,6 @@ msgid "New Education"
 msgstr "Добавить образование"
 
 #: .\templates\partials\employees\_employee_details_collapse.html:28
-
 msgid "Address"
 msgstr "Адрес"
 
@@ -649,7 +675,6 @@ msgstr "Фильтр"
 #: .\templates\partials\employees\_search_bar.html:9
 #: .\templates\partials\employers\employers\_search_bar.html:10
 #: .\templates\partials\employers\job_listings\_search_bar.html:9
-
 msgid "Create New"
 msgstr "Создать"
 
@@ -668,19 +693,52 @@ msgid "Clear Filters"
 msgstr "Очистить фильтры"
 
 #: .\templates\partials\employers\contracts\_search_bar.html:8
-
 msgid "New Contract"
 msgstr "Новый контракт"
 
-#: .\templates\partials\employers\employers\_search_bar.html:23
+#: .\templates\partials\employers\contracts\_search_bar.html:39
+#, fuzzy
+#| msgid "Signing Date"
+msgid "Signing Date From"
+msgstr "Дата подписания"
 
+#: .\templates\partials\employers\contracts\_search_bar.html:45
+#, fuzzy
+#| msgid "Signing Date"
+msgid "Signing Date To"
+msgstr "Дата подписания"
+
+#: .\templates\partials\employers\contracts\_search_bar.html:51
+#, fuzzy
+#| msgid "Expiration Date"
+msgid "Expiration Date From"
+msgstr "Дата окончания срока важности"
+
+#: .\templates\partials\employers\contracts\_search_bar.html:57
+#, fuzzy
+#| msgid "Expiration Date"
+msgid "Expiration Date To"
+msgstr "Дата окончания срока важности"
+
+#: .\templates\partials\employers\employers\_search_bar.html:23
 msgid "Employer Description"
 msgstr "Описание работодателя"
 
 #: .\templates\partials\employers\job_listings\_search_bar.html:22
-
 msgid "Job Description"
 msgstr "Описание вакансии"
+
+#: .\templates\partials\employers\job_listings\_search_bar.html:30
+#, fuzzy
+#| msgid "Location"
+msgid "Locations"
+msgstr "Месторасположение"
+
+#: .\templates\partials\employers\job_listings\_search_bar.html:47
+#, fuzzy
+#| msgid "Contract Type"
+msgid "Contract Types"
+msgstr "Тип контракта"
 
 #: .\templates\partials\experience\_add_experience.html:3
 msgid "Add New Experience"
@@ -2155,8 +2213,8 @@ msgstr ""
 msgid "Connect, get help, or contribute"
 msgstr ""
 
-#~ msgid "Country Of Origin"
-#~ msgstr "Страна происхождения"
+#~ msgid "Недоступен"
+#~ msgstr "Доступность"
 
 #, fuzzy
 #~| msgid "Show more"
@@ -2166,18 +2224,11 @@ msgstr ""
 #~ msgid "See more"
 #~ msgstr "Подробнее"
 
-#~ msgid "Jobs"
-#~ msgstr "Вакансии"
-
 #~ msgid "Create Employer"
 #~ msgstr "Создать работодателя"
 
 #~ msgid "Create Employee"
 #~ msgstr "Создать соискателя"
-
-#~ msgid "Matched Employees"
-#~ msgstr "Подходящие соискатели"
-
 
 #~ msgid "Add Contract"
 #~ msgstr "Добавить контракт"

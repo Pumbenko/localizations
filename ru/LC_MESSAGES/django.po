@@ -34,7 +34,7 @@ msgstr "Электронная почта"
 
 #: .\back_end\choices.py:12
 msgid "passport"
-msgstr "пасспорт"
+msgstr "паспорт"
 
 #: .\back_end\choices.py:13
 msgid "dyploma"
@@ -89,15 +89,15 @@ msgstr "Беларусь"
 
 #: .\back_end\choices.py:38
 msgid "basic"
-msgstr "базовая"
+msgstr "базовое"
 
 #: .\back_end\choices.py:39
 msgid "middle"
-msgstr "средняя"
+msgstr "среднее"
 
 #: .\back_end\choices.py:40
 msgid "high"
-msgstr "высшая"
+msgstr "высшее"
 
 #: .\back_end\choices.py:41
 msgid "science degree"
@@ -319,7 +319,7 @@ msgstr "Дата подписания"
 #: .\employers\forms.py:147
 
 msgid "Contract Details"
-msgstr "Детали контакта"
+msgstr "Детали контракта"
 
 #: .\templates\accounts\log_in.html:11 .\templates\accounts\log_in.html:32
 #: .\templates\partials\_navbar.html:63
@@ -2178,10 +2178,9 @@ msgstr ""
 #~ msgid "Matched Employees"
 #~ msgstr "Подходящие соискатели"
 
-#, fuzzy
-#~| msgid "Contacts"
+
 #~ msgid "Add Contract"
-#~ msgstr "Контакты"
+#~ msgstr "Добавить контракт"
 
 #~ msgid "Keywords"
 #~ msgstr "Ключевые слова"
